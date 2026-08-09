@@ -588,6 +588,13 @@ body {
   .md-content { padding: 2rem; }
 }
 
+.navbar-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
+
 .reader-app-btn {
   display: inline-flex;
   align-items: center;
@@ -601,7 +608,7 @@ body {
   text-decoration: none !important;
   box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  margin-left: auto;
+  flex-shrink: 0;
 }
 
 .reader-app-btn:hover {
@@ -619,20 +626,22 @@ body {
     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#gradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6366f1" /><stop offset="100%" stop-color="#ec4899" /></linearGradient></defs><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
     <span>书殿堂</span>
   </a>
-  <div class="search-box" id="searchBox">
-    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-    <input type="text" id="searchInput" class="search-input" placeholder="探索不朽名著..." autocomplete="off" />
-    <button type="button" class="search-close" aria-label="清空"><svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
-    <div class="search-results" id="searchResults">
-      <div class="search-result-header"><span>探索结果</span><span id="searchCount"></span></div>
-      <div class="search-result-list" id="searchResultList"></div>
+  <div class="navbar-nav-right">
+    <div class="search-box" id="searchBox">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="searchInput" class="search-input" placeholder="探索不朽名著..." autocomplete="off" />
+      <button type="button" class="search-close" aria-label="清空"><svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      <div class="search-results" id="searchResults">
+        <div class="search-result-header"><span>探索结果</span><span id="searchCount"></span></div>
+        <div class="search-result-list" id="searchResultList"></div>
+      </div>
     </div>
-  </div>
 
-  <a href="software/电子书阅读器-SumatraPDF-3.6.1.zip" download="SumatraPDF-Reader.zip" class="reader-app-btn" title="下载全能电子书阅读器 (SumatraPDF 3.6.1)">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-    <span>阅读器下载</span>
-  </a>
+    <a href="software/电子书阅读器-SumatraPDF-3.6.1.zip" download="SumatraPDF-Reader.zip" class="reader-app-btn" title="下载全能电子书阅读器 (SumatraPDF 3.6.1)">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      <span>阅读器下载</span>
+    </a>
+  </div>
 
 </nav>
 

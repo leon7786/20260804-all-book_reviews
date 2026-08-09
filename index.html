@@ -962,7 +962,7 @@ function renderBookCard(book) {
         <div class="book-author" title="${book.author}">${book.author}</div>
         ${book.en_author && book.en_author !== book.author ? `<div class="book-author-en" title="${book.en_author}">${book.en_author}</div>` : ''}
         <div class="book-meta">
-          <span class="tag year">${book.year || '-'}</span>
+          ${book.year ? `<span class="tag year">${book.year}</span>` : ''}
           <span class="tag ${typeClass}" style="cursor:pointer;" title="点击查看【${cleanType}】专属海报墙" data-category="${cleanType}">${cleanType}</span>
           <button type="button" class="download-btn-rect" title="在电子书宝库中跨源搜索" data-name="${encodeURIComponent(book.cn_name)}">Download</button>
         </div>

@@ -441,23 +441,25 @@ body {
   text-overflow: ellipsis;
   display: block;
 }
-}
-
 .book-meta {
   display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: nowrap;
   margin-top: auto;
+  width: 100%;
 }
 
 .tag {
   position: relative;
   z-index: 10;
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   font-weight: 600;
-  padding: 0.25rem 0.6rem;
+  padding: 0.18rem 0.45rem;
   border-radius: 6px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: all 0.15s ease;
 }
 
@@ -521,6 +523,8 @@ body {
   position: relative;
   z-index: 10;
   margin-left: auto;
+  flex-shrink: 0;
+  white-space: nowrap;
   background: #f8fafc;
   border: 1px solid #cbd5e1;
   color: #475569;

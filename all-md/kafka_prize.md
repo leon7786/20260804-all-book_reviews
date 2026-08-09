@@ -1,0 +1,25 @@
+# kafka_prize
+
+| 排名/标识 | 出版年份 | 中文书名 | 外文原名 | 中文作者 | 外文作者 | 专属分类 |
+|---|---|---|---|---|---|---|
+| WINNER | 2021 | 终身成就 | Ivan Vyskočil | 伊万·维斯科齐尔 | - | 8. 文学 |
+| WINNER | 2020 | 终身成就 | Milan Kundera | 米兰·昆德拉 | - | 8. 文学 |
+| WINNER | 2019 | 终身成就 | Pierre Michon | 皮埃尔·米雄 | - | 8. 文学 |
+| WINNER | 2018 | 终身成就 | Ivan Wernisch | 伊万·韦尔尼施 | - | 8. 文学 |
+| WINNER | 2017 | 终身成就 | Margaret Atwood | 玛格丽特·阿特伍德 | - | 8. 文学 |
+| WINNER | 2016 | 终身成就 | Claudio Magris | 克劳迪奥·马格里斯 | - | 8. 文学 |
+| WINNER | 2015 | 终身成就 | Eduardo Mendoza | 爱德华多·门多萨 | - | 8. 文学 |
+| WINNER | 2014 | 终身成就 | Yan Lianke | 阎连科 | - | 8. 文学 |
+| WINNER | 2013 | 终身成就 | Amos Oz | 阿摩司·奥兹 | - | 8. 文学 |
+| WINNER | 2012 | 终身成就 | Daniela Hodrová | 达妮埃拉·霍德罗娃 | - | 8. 文学 |
+| WINNER | 2011 | 终身成就 | John Banville | 约翰·班维尔 | - | 8. 文学 |
+| WINNER | 2010 | 终身成就 | Václav Havel | 瓦茨拉夫·哈维尔 | - | 8. 文学 |
+| WINNER | 2009 | 终身成就 | Peter Handke | 彼得·汉德克 | - | 8. 文学 |
+| WINNER | 2008 | 终身成就 | Arnošt Lustig | 阿诺什特·卢斯蒂格 | - | 8. 文学 |
+| WINNER | 2007 | 终身成就 | Yves Bonnefoy | 伊夫·博纳富瓦 | - | 8. 文学 |
+| WINNER | 2006 | 终身成就 | Haruki Murakami | 村上春树 | - | 8. 文学 |
+| WINNER | 2005 | 终身成就 | Harold Pinter | 哈罗德·品特 | - | 8. 文学 |
+| WINNER | 2004 | 终身成就 | Elfriede Jelinek | 埃尔芙丽德·耶利内克 | - | 8. 文学 |
+| WINNER | 2003 | 终身成就 | Péter Nádas | 纳道什·彼得 | - | 8. 文学 |
+| WINNER | 2002 | 终身成就 | Ivan Klíma | 伊万·克里玛 | - | 8. 文学 |
+| WINNER | 2001 | 终身成就 | Philip Roth | 菲利普·罗斯 | - | 8. 文学 |

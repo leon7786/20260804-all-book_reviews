@@ -1,0 +1,112 @@
+# pulitzer_fiction
+
+| 排名/标识 | 出版年份 | 中文书名 | 外文原名 | 中文作者 | 外文作者 | 专属分类 |
+|---|---|---|---|---|---|---|
+| WINNER | 2025 | 詹姆斯 | James | 珀西瓦尔·埃弗雷特 | - | 8. 文学 |
+| WINNER | 2024 | 守夜 | Night Watch | 杰恩·安妮·菲利普斯 | - | 8. 文学 |
+| WINNER | 2023 | 信任 | Trust | 赫尔南·迪亚斯 | - | 8. 文学 |
+| WINNER | 2023 | 恶魔铜头 | Demon Copperhead | 芭芭拉·金索沃 | - | 8. 文学 |
+| WINNER | 2022 | 内网 | The Netanyahus | 乔舒亚·科恩 | - | 8. 文学 |
+| WINNER | 2021 | 承诺 | The Sentence | 路易丝·厄德里奇 | - | 8. 文学 |
+| WINNER | 2020 | 守夜人 | The Nickel Boys | 科尔森·怀特黑德 | - | 8. 文学 |
+| WINNER | 2019 | 树冠 | The Overstory | 理查德·鲍尔斯 | - | 8. 文学 |
+| WINNER | 2018 | 少 | Less | 安德鲁·塞曼 | - | 8. 文学 |
+| WINNER | 2017 | 地下铁路 | The Underground Railroad | 科尔森·怀特黑德 | - | 8. 文学 |
+| WINNER | 2016 | 同情者 | The Sympathizer | 阮越清 | - | 8. 文学 |
+| WINNER | 2015 | 所有我们看不见的光 | All the Light We Cannot See | 安东尼·多尔 | - | 8. 文学 |
+| WINNER | 2014 | 金翅雀 | The Goldfinch | 唐娜·塔特 | - | 8. 文学 |
+| WINNER | 2013 | 孤儿领袖的儿子 | The Orphan Master's Son | 亚当·约翰逊 | - | 8. 文学 |
+| WINNER | 2012 | Swamplandia! | Swamplandia! | 卡伦·拉塞尔 | - | 8. 文学 |
+| WINNER | 2011 | 中性 | A Visit from the Goon Squad | 珍妮弗·伊根 | - | 8. 文学 |
+| WINNER | 2010 | 路 | The Road | 科马克·麦卡锡 | - | 8. 文学 |
+| WINNER | 2009 | 奥丽芙·基特里奇 | Olive Kitteridge | 伊丽莎白·斯特劳特 | - | 8. 文学 |
+| WINNER | 2008 | 卡瓦利与克雷的神奇冒险 | The Amazing Adventures of Kavalier & Clay | 迈克尔·谢邦 | - | 8. 文学 |
+| WINNER | 2007 | 路 | The Road | 科马克·麦卡锡 | - | 8. 文学 |
+| WINNER | 2006 | 马奇 | March | 杰拉尔丁·布鲁克斯 | - | 8. 文学 |
+| WINNER | 2005 | 基列家书 | Gilead | 玛丽莲·罗宾逊 | - | 8. 文学 |
+| WINNER | 2004 | 中性 | Middlesex | 杰弗里·尤金尼德斯 | - | 8. 文学 |
+| WINNER | 2003 | 帝国瀑布 | Empire Falls | 理查德·拉索 | - | 8. 文学 |
+| WINNER | 2002 | Corrections | The Corrections | 乔纳森·弗兰岑 | - | 8. 文学 |
+| WINNER | 2001 | 奇妙的卡瓦利与克雷冒险 | The Amazing Adventures of Kavalier & Clay | 迈克尔·谢邦 | - | 8. 文学 |
+| WINNER | 2000 | 解读疾病 | Interpreter of Maladies | 裘帕·拉希莉 | - | 8. 文学 |
+| WINNER | 1999 | 时间旅行者的妻子 | The Hours | 迈克尔·坎宁安 | - | 8. 文学 |
+| WINNER | 1998 | 美国牧歌 | American Pastoral | 菲利普·罗斯 | - | 8. 文学 |
+| WINNER | 1997 | 马丁·德雷斯勒 | Martin Dressler: The Tale of an American Dreamer | 史蒂文·米尔豪瑟 | - | 8. 文学 |
+| WINNER | 1996 | 独立日 | Independence Day | 理查德·福特 | - | 8. 文学 |
+| WINNER | 1995 | 石日记 | The Stone Diaries | 卡罗尔·希尔兹 | - | 8. 文学 |
+| WINNER | 1994 | 航运新闻 | The Shipping News | 安妮·普鲁 | - | 8. 文学 |
+| WINNER | 1993 | 陌生山上的好气味 | A Good Scent from a Strange Mountain | 罗伯特·奥伦·巴特勒 | - | 8. 文学 |
+| WINNER | 1992 | 千亩 | A Thousand Acres | 简·斯迈利 | - | 8. 文学 |
+| WINNER | 1991 | 兔子歇了 | Rabbit at Rest | 约翰·厄普代克 | - | 8. 文学 |
+| WINNER | 1990 | 曼波 Kings 演奏爱的歌曲 | The Mambo Kings Play Songs of Love | 奥斯卡·伊胡埃洛斯 | - | 8. 文学 |
+| WINNER | 1989 | 呼吸课 | Breathing Lessons | 安妮·泰勒 | - | 8. 文学 |
+| WINNER | 1988 | 宠儿 | Beloved | 托妮·莫里森 | Toni Morrison | 8. 文学 |
+| WINNER | 1987 | 孟菲斯的召唤 | A Summons to Memphis | 彼得·泰勒 | - | 8. 文学 |
+| WINNER | 1986 | 孤鸽巷 | Lonesome Dove | 拉里·麦克默特里 | - | 8. 文学 |
+| WINNER | 1985 | 涉外事务 | Foreign Affairs | 艾莉森·卢里 | - | 8. 文学 |
+| WINNER | 1984 | 铁草 | Ironweed | 威廉·肯尼迪 | - | 8. 文学 |
+| WINNER | 1983 | 紫色 | The Color Purple | 艾丽丝·沃克 | - | 8. 文学 |
+| WINNER | 1982 | 兔子富了 | Rabbit Is Rich | 约翰·厄普代克 | - | 8. 文学 |
+| WINNER | 1981 | 笨人联盟 | A Confederacy of Dunces | 约翰·肯尼迪·图尔 | - | 8. 文学 |
+| WINNER | 1980 | 刽子手之歌 | The Executioner's Song | 诺曼·梅勒 | - | 8. 文学 |
+| WINNER | 1979 | 约翰·契弗短篇小说集 | The Stories of John Cheever | 约翰·契弗 | - | 8. 文学 |
+| WINNER | 1978 | 肘窝 | Elbow Room | 詹姆斯·艾伦·麦克弗森 | - | 8. 文学 |
+| WINNER | 1977 | 未颁发 |  |  | - | 8. 文学 |
+| WINNER | 1976 | 洪堡的礼物 | Humboldt's Gift | 索尔·贝娄 | Saul Bellow | 8. 文学 |
+| WINNER | 1975 | 杀手天使 | The Killer Angels | 迈克尔·沙拉 | - | 8. 文学 |
+| WINNER | 1974 | 未颁发 |  |  | - | 8. 文学 |
+| WINNER | 1973 | 乐观主义者之女 | The Optimist's Daughter | 尤多拉·韦尔蒂 | - | 8. 文学 |
+| WINNER | 1972 | 安息的角度 | Angle of Repose | 华莱士·斯特格纳 | - | 8. 文学 |
+| WINNER | 1971 | 未颁发 |  |  | - | 8. 文学 |
+| WINNER | 1970 | 简·斯塔福德短篇小说集 | The Collected Stories of Jean Stafford | 简·斯塔福德 | - | 8. 文学 |
+| WINNER | 1969 | 黎明之屋 | House Made of Dawn | N·斯科特·莫马迪 | - | 8. 文学 |
+| WINNER | 1968 | 纳特·特纳的自白 | The Confessions of Nat Turner | 威廉·斯泰伦 | - | 8. 文学 |
+| WINNER | 1967 | 修好者 | The Fixer | 伯纳德·马拉默德 | - | 8. 文学 |
+| WINNER | 1966 | 看守者 | The Collected Stories of Katherine Anne Porter | 凯瑟琳·安妮·波特 | - | 8. 文学 |
+| WINNER | 1965 | 管家 | The Keepers of the House | 雪莉·安·格劳 | - | 8. 文学 |
+| WINNER | 1964 | 掠夺者 | The Reivers | 威廉·福克纳 | - | 8. 文学 |
+| WINNER | 1963 | 悲伤的边缘 | The Edge of Sadness | 埃德温·奥康纳 | - | 8. 文学 |
+| WINNER | 1962 | 时光之轮 | The Moviegoer | 沃克·珀西 | - | 8. 文学 |
+| WINNER | 1961 | 杀死一只知更鸟 | To Kill a Mockingbird | 哈珀·李 | Harper Lee | 8. 文学 |
+| WINNER | 1960 | advise and Consent | Advise and Consent | 艾伦·德鲁里 | - | 8. 文学 |
+| WINNER | 1959 | 旅行的伴侣 | The Travels of Jaimie McPheeters | 罗伯特·刘易斯·泰勒 | - | 8. 文学 |
+| WINNER | 1958 | 一个老人的回忆 | A Death in the Family | 詹姆斯·阿吉 | - | 8. 文学 |
+| WINNER | 1957 | 未颁发 |  |  | - | 8. 文学 |
+| WINNER | 1956 | 寓言 | A Fable | 威廉·福克纳 | - | 8. 文学 |
+| WINNER | 1955 | 老人与海 | The Old Man and the Sea | 欧内斯特·海明威 | Ernest Hemingway | 8. 文学 |
+| WINNER | 1954 | 未颁发 |  |  | - | 8. 文学 |
+| WINNER | 1953 | 凯恩号哗变 | The Caine Mutiny | 赫尔曼·沃克 | - | 8. 文学 |
+| WINNER | 1952 | 城镇 | The Town | 康拉德·里希特 | - | 8. 文学 |
+| WINNER | 1951 | 向西之路 | The Way West | A·B·格思里 | - | 8. 文学 |
+| WINNER | 1950 | 未颁发 |  |  | - | 8. 文学 |
+| WINNER | 1949 | 警卫 | Guard of Honor | 詹姆斯·古尔德·科曾斯 | - | 8. 文学 |
+| WINNER | 1948 | 南太平洋的故事 | Tales of the South Pacific | 詹姆斯·米切纳 | - | 8. 文学 |
+| WINNER | 1947 | 国王的男人 | All the King's Men | 罗伯特·佩恩·沃伦 | - | 8. 文学 |
+| WINNER | 1946 | 未颁发 |  |  | - | 8. 文学 |
+| WINNER | 1945 | 阿达诺之钟 | A Bell for Adano | 约翰·赫西 | - | 8. 文学 |
+| WINNER | 1944 | 黑暗中的旅程 | Journey in the Dark | 马丁·弗莱文 | - | 8. 文学 |
+| WINNER | 1943 | 龙牙 | Dragon's Teeth | 厄普顿·辛克莱 | - | 8. 文学 |
+| WINNER | 1942 | 在我们这个时代 | In This Our Life | 艾伦·格拉斯哥 | - | 8. 文学 |
+| WINNER | 1941 | 未颁发 |  |  | - | 8. 文学 |
+| WINNER | 1940 | 愤怒的葡萄 | The Grapes of Wrath | 约翰·斯坦贝克 | John Steinbeck | 8. 文学 |
+| WINNER | 1939 | 小鹿 | The Yearling | 玛乔丽·金南·罗林斯 | - | 8. 文学 |
+| WINNER | 1938 | 已故的乔治·阿普利 | The Late George Apley | 约翰·P·马昆德 | - | 8. 文学 |
+| WINNER | 1937 | 飘 | Gone with the Wind | 玛格丽特·米切尔 | Margaret Mitchell | 8. 文学 |
+| WINNER | 1936 | 号角角 | Honey in the Horn | H·L·戴维斯 | - | 8. 文学 |
+| WINNER | 1935 | 十一月的此刻 | Now in November | 约瑟芬·温斯洛·约翰逊 | - | 8. 文学 |
+| WINNER | 1934 | 怀中羔羊 | Lamb in His Bosom | 卡罗琳·米勒 | - | 8. 文学 |
+| WINNER | 1933 | 商店 | The Store | T·S·斯特里布林 | - | 8. 文学 |
+| WINNER | 1932 | 大地 | The Good Earth | 赛珍珠 | Pearl S. Buck | 8. 文学 |
+| WINNER | 1931 | 优雅岁月 | Years of Grace | 玛格丽特·艾尔·巴恩斯 | - | 8. 文学 |
+| WINNER | 1930 | 笑面少年 | Laughing Boy | 奥利弗·拉法吉 | - | 8. 文学 |
+| WINNER | 1929 | 红发姐妹玛丽 | Scarlet Sister Mary | 朱莉娅·彼得金 | - | 8. 文学 |
+| WINNER | 1928 | 圣路易斯雷桥 | The Bridge of San Luis Rey | 桑顿·怀尔德 | - | 8. 文学 |
+| WINNER | 1927 | 初秋 | Early Autumn | 路易斯·布罗姆菲尔德 | - | 8. 文学 |
+| WINNER | 1926 | 阿罗史密斯 | Arrowsmith | 辛克莱·刘易斯 | - | 8. 文学 |
+| WINNER | 1925 | 如此之大 | So Big | 埃德娜·费伯 | - | 8. 文学 |
+| WINNER | 1924 | 阿布尔·麦克劳林一家 | The Able McLaughlins | 玛格丽特·威尔逊 | - | 8. 文学 |
+| WINNER | 1923 | 我们中的一个 | One of Ours | 薇拉·凯瑟 | - | 8. 文学 |
+| WINNER | 1922 | 爱丽丝·亚当斯 | Alice Adams | 布思·塔金顿 | - | 8. 文学 |
+| WINNER | 1921 | 纯真年代 | The Age of Innocence | 伊迪丝·华顿 | - | 8. 文学 |
+| WINNER | 1919 | 马格诺利亚街 | The Magnificent Ambersons | 布思·塔金顿 | - | 8. 文学 |
+| WINNER | 1918 | 他的家族 | His Family | 欧内斯特·普尔 | - | 8. 文学 |

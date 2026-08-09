@@ -1,0 +1,197 @@
+# goodreads_top250
+
+| 排名/标识 | 出版年份 | 中文书名 | 外文原名 | 中文作者 | 外文作者 | 专属分类 |
+|---|---|---|---|---|---|---|
+| TOP1 | 2022 | 天堂官方的祝福（第8卷） | Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 8 | 墨香铜臭 | Mo Xiang Tong Xiu | 8. 文学 |
+| TOP2 | 2023 | 光之使者（红色崛起，第6部） | Light Bringer (Red Rising Saga, #6) | 皮尔斯·布朗 | Pierce Brown | 8. 文学 |
+| TOP3 | 2014 | 光辉之言（风暴之光档案，第2部） | Words of Radiance (The Stormlight Archive, #2) | 布兰登·桑德森 | Brandon Sanderson | 8. 文学 |
+| TOP4 | 2017 | 所有年轻的小伙子们 | All the Young Dudes | MsKingBean89 | Ellie Russell | 8. 文学 |
+| TOP5 | 1997 | 三尖树时代（魔戒，第12卷） | Berserk, Vol. 12 | 三浦建太郎 | Isshiki Ichika | 8. 文学 |
+| TOP6 | 1994 | 魔戒（电影改编版） | The Lord of the Rings (Brian Sibley adapter) | 布莱恩·西布尔 | J.R.R. Tolkien | 7. 艺术与休闲 |
+| TOP7 | 2017 | 守护者与狼王（翼羽传说，第4部） | The Warden and the Wolf King (The Wingfeather Saga, #4) | 安德鲁·彼得森 | Andrew Peterson | 9. 历史与地理 |
+| TOP8 | 2008 | ESV研本圣经 | ESV Study Bible | 多位作者 | ESV Bibles by Crossway | 2. 宗教 |
+| TOP9 | 2024 | 危险中的好奇（危险家族，第3部） | Curiosity in Danger | 恩迪娅·卡特 | India Karter | 8. 文学 |
+| TOP10 | 1994 | 一个魔幻世界（卡尔文与霍布斯，第11卷） | It's a Magical World (Calvin and Hobbes, #11) | 比尔·沃特森 | Bill Watterson | 8. 文学 |
+| TOP11 | 2023 | 中年魔法大战（升级，第9部） | Magical Midlife Battle (Leveling Up, #9) | K.F. Breene | K.F. Breene | 8. 文学 |
+| TOP12 | 2024 | 人质 | Hostage | 以利·沙拉比 | Elie Chalabi | 8. 文学 |
+| TOP13 | 2019 | 天际唯一的飞机：9/11口述历史 | The Only Plane in the Sky: An Oral History of 9/11 | Garrett M. Graff | Garrett M. Graff | 9. 历史与地理 |
+| TOP14 | 1963 | 伯明翰监狱来信 | Letter from the Birmingham Jail | 马丁·路德·金 | Martin Luther King Jr. | 8. 文学 |
+| TOP15 | 2018 | 灰烬王国（玻璃王座，第7部） | Kingdom of Ash (Throne of Glass, #7) | 莎拉·J·马斯 | Sarah J. Maas | 8. 文学 |
+| TOP16 | 2022 | 艾玛·M·狮子未选日记（第6卷） | The Unselected Journals of Emma M. Lion | 贝丝·布劳尔 | Beth Brower | 8. 文学 |
+| TOP17 | 1983 | 不可缺少的卡尔文与霍布斯 | The Indispensable Calvin and Hobbes | 比尔·沃特森 | Bill Watterson | 8. 文学 |
+| TOP18 | 2020 | 魔道祖师（小说，第4卷） | Grandmaster of Demonic Cultivation: Mo Dao Zu Shi (Novel) Vol. 4 | 墨香铜臭 | Mo Xiang Tong Xiu | 8. 文学 |
+| TOP19 | 2010 | 被诅咒的军团（罗马系列） | Las legiones malditas | 圣地亚哥·波斯蒂吉略 | Santiago Posteguillo Gomez | 9. 历史与地理 |
+| TOP20 | 2021 | 快 | fast | 米莉·贝利泽尔 | Daniel Kahneman | 8. 文学 |
+| TOP21 | 2021 | 快 | fast | Millie Belizaire | Daniel Kahneman | 8. 文学 |
+| TOP22 | 2018 | 全知读者视角（第1卷） | 전지적 독자 시점 1 (Omniscient Reader's Viewpoint, #1) | singNsong | 싱숑 | 8. 文学 |
+| TOP23 | 1990 | 权威卡尔文与霍布斯 | The Authoritative Calvin and Hobbes | 比尔·沃特森 | Bill Watterson | 8. 文学 |
+| TOP24 | 1955 | 庞金·塞尔万全集 | Ponniyin Selvan | Kalki Krishnamurthy | Kalki Krishnamurthy | 8. 文学 |
+| TOP25 | 2006 | 海贼王（第41卷） | One Piece (Vol. 41) | 尾田荣一郎 | Eiichiro Oda | 9. 历史与地理 |
+| TOP26 | 2022 | 屠夫的假面舞会（地下城行者卡尔，第5部） | The Butcher's Masquerade (Dungeon Crawler Carl, #5) | 马特·迪尼曼 | Matt Dinniman | 8. 文学 |
+| TOP27 | 2020 | 鬼灭之刃（第23卷） | Demon Slayer (Vol. 23) | 吾峠呼世晴 | Koyoharu Gotouge | 8. 文学 |
+| TOP28 | 2024 | 唐·卡塞利（卡塞利家族，第2部） | Don Caselli (Caselli Family, #2) | Jahquel J. | Pietro Paolo Caselli | 8. 文学 |
+| TOP29 | 2003 | 完整的远侧（1980-1994） | The Complete Far Side, 1980–1994 | 加里·拉尔森 | Gary Larson | 8. 文学 |
+| TOP30 | 2021 | 冬钢（摇篮，第8部） | Wintersteel (Cradle, #8) | 威尔·怀特 | Will Wight | 8. 文学 |
+| TOP31 | 2024 | 失去控制 | Out of Control | Ladii Nesha | Ladii Nesha | 8. 文学 |
+| TOP32 | 2019 | 我知道你的姓名 | Know My Name | 香奈儿·米勒 | Chanel Miller | 8. 文学 |
+| TOP33 | 2024 | 不可避免的毁灭（地下城行者卡尔，第7部） | This Inevitable Ruin (Dungeon Crawler Carl #7) | Matt Dinniman | Matt Dinniman | 8. 文学 |
+| TOP34 | 2002 | 魔戒（广播剧版，双塔） | The Lord of the Rings (Radio Dramatization, The Two Towers) | 布莱恩·西布尔 | Brian Sibley | 8. 文学 |
+| TOP35 | 2017 | 刺客的命运（菲茨与傻瓜，第3部） | Assassin's Fate (The Fitz and the Fool, #3) | 罗宾·霍布 | Robin Hobb | 8. 文学 |
+| TOP36 | 2024 | 生命之歌 | A Hymn to Life | 吉赛尔·佩利科 | Nojorkam | 8. 文学 |
+| TOP37 | 2024 | 魔法主张（凯特·丹尼尔斯：威尔明顿岁月，第2部） | Magic Claims (Kate Daniels: Wilmington Years, #2) | 伊洛娜·安德鲁斯 | Ilona Andrews | 8. 文学 |
+| TOP38 | 2024 | 魔法主张（凯特·丹尼尔斯：威尔明顿岁月，第2部） | Magic Claims (Kate Daniels: Wilmington Years, #2) | Ilona Andrews | Ilona Andrews | 8. 文学 |
+| TOP39 | 2019 | 汉娜 | Hana | 阿莱娜·莫尔施塔伊诺娃 | Karen Levine | 8. 文学 |
+| TOP40 | 2019 | 汉娜 | Hana | Alena Mornštajnová | Karen Levine | 8. 文学 |
+| TOP41 | 2016 | 进击的巨人（第20卷） | Attack on Titan (Vol. 20) | 谏山创 | Hajime Isayama | 8. 文学 |
+| TOP42 | 2009 | 钢之炼金术师（第23卷） | Fullmetal Alchemist (Vol. 23) | 荒川弘 | Hiromu Arakawa | 8. 文学 |
+| TOP43 | 2010 | 国王之路（风暴之光档案，第1部） | The Way of Kings (The Stormlight Archive, #1) | 布兰登·桑德森 | Brandon Sanderson | 8. 文学 |
+| TOP44 | 2023 | 收割者（摇篮，第10部） | Reaper (Cradle, #10) | Will Wight | Terry Pratchett | 8. 文学 |
+| TOP45 | 2020 | 电锯人（第9卷） | Chainsaw Man (Vol. 9) | 藤本树 | Tatsuki Fujimoto | 8. 文学 |
+| TOP46 | 2024 | 破碎的心（乌鸦家族遗产，第2部） | Severed Heart (Ravenhood Legacy, #2) | 凯特·斯图尔特 | Robyn Schneider | 7. 艺术与休闲 |
+| TOP47 | 2013 | 发条天使；发条王子；发条公主（合集） | Clockwork Angel; Clockwork Prince; Clockwork Princess | 卡桑德拉·克莱尔 | Cassandra Clare | 8. 文学 |
+| TOP48 | 2024 | 影响力的杀手（DCI Logan，第20部） | A Killer of Influence (DCI Logan Crime Thrillers #20) | J.D. Kirk | JD Kirk | 8. 文学 |
+| TOP49 | 2019 | 苏尔维 | Sulwe | 露皮塔·尼永奥 | Lupita Nyong'o | 8. 文学 |
+| TOP50 | 2019 | 苏尔维 | Sulwe | Lupita Nyong'o | Lupita Nyong'o | 8. 文学 |
+| TOP51 | 2015 | 夜莺 | The Nightingale | 克里斯汀·汉娜 | Kristin Hannah | 8. 文学 |
+| TOP52 | 1988 | 基本卡尔文与霍布斯 | The Essential Calvin and Hobbes | 比尔·沃特森 | Bill Watterson | 8. 文学 |
+| TOP53 | 2017 | 太阳也闪耀：我在死囚牢房中找到生命和自由 | The Sun Does Shine: How I Found Life and Freedom on Death Row | 安东尼·雷·辛顿 | Paul Adams / Bookhabits | 8. 文学 |
+| TOP54 | 1991 | 生命应用研本圣经 | Life Application Study Bible: NIV | 多位作者 | New International Version Staff | 2. 宗教 |
+| TOP55 | 2021 | 咒术回战（第14卷） | 呪術廻戦 14 (Jujutsu Kaisen 14) | 芥见下下 | Ryomen Sukune | 8. 文学 |
+| TOP56 | 1988 | 床底下的东西在流口水 | Something Under the Bed is Drooling (Calvin and Hobbes #2) | 比尔·沃特森 | Bill Watterson | 8. 文学 |
+| TOP57 | 1991 | 来自另一个星球的怪人 | Weirdos from Another Planet! (Calvin and Hobbes, #4) | 比尔·沃特森 | Bill Watterson | 8. 文学 |
+| TOP58 | 2013 | 排球少年!!（第4卷） | ハイキュー!! 4 (Haikyū!! 4) | 古馆春一 | 古舘春一 | 8. 文学 |
+| TOP59 | 2022 | 救赎6（汤姆森男孩，第4部） | Redeeming 6 (Boys of Tommen, #4) | 克洛伊·沃尔什 | Chloe Walsh | 8. 文学 |
+| TOP60 | 1994 | 黑暗中的回声（狮子印记，第2部） | An Echo in the Darkness (Mark of the Lion, #2) | 弗兰辛·里弗斯 | Francine Rivers | 8. 文学 |
+| TOP61 | 2009 | 懒惰的周日卡尔文与霍布斯 | The Lazy Sunday Book (Calvin and Hobbes) | 比尔·沃特森 | Bill Watterson | 8. 文学 |
+| TOP62 | 2018 | 马龙·邦多生活中的一天 | A Day in the Life of Marlon Bundo | 吉尔·特威斯 | Jill Twiss | 8. 文学 |
+| TOP63 | 2005 | 海贼王（第38卷） | One Piece (Vol. 38) | 尾田荣一郎 | Eiichiro Oda | 8. 文学 |
+| TOP64 | 2013 | 安妮：绿山墙合集 | Anne: The Green Gables Collection | L.M. 蒙哥马利 | Lucy Maud Montgomery | 8. 文学 |
+| TOP65 | 2016 | 迷雾与愤怒的法庭（荆棘与玫瑰，第2部） | A Court of Mist and Fury (A Court of Thorns and Roses, #2) | 莎拉·J·马斯 | Sarah J. Maas | 8. 文学 |
+| TOP66 | 2016 | 风暴帝国（玻璃王座，第5部） | Empire of Storms (Throne of Glass, #5) | Sarah J. Maas | Sarah J. Maas | 9. 历史与地理 |
+| TOP67 |  | 圣经：新国际版 | Holy Bible: New International Version | 多位作者 | - | 2. 宗教 |
+| TOP68 | 2020 | 天官赐福（小说，第2卷） | Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 2 | Mò Xiāng Tóng Xiù | Mo Xiang Tong Xiu | 8. 文学 |
+| TOP69 | 2016 | 三月：第三册（三月，第3册） | March: Book Three | 约翰·刘易斯 | John Lewis | 8. 文学 |
+| TOP70 | 2020 | 战斗的话语 | Fighting Words | 金伯利·布鲁贝克·布拉德利 | Kimberly Brubaker Bradley | 8. 文学 |
+| TOP71 | 2024 | 坚守 | Hold Strong | 罗伯特·杜戈尼 | Sarah Castille | 8. 文学 |
+| TOP72 | 2023 | 战争与废墟（束缚与破碎，第3部） | Of War and Ruin (The Bound and the Broken, #3) | 瑞安·卡希尔 | Ryan Cahill | 9. 历史与地理 |
+| TOP73 | 2011 | 皇帝的刺客（图拉真，第1部） | The Emperor's Assassin | 圣地亚哥·波斯蒂吉略 | Santiago Posteguillo | 8. 文学 |
+| TOP74 | 2007 | 哈利·波特与死亡圣器（哈利·波特，第7部） | Harry Potter and the Deathly Hallows (Harry Potter, #7) | J.K. Rowling | J. K. Rowling | 8. 文学 |
+| TOP75 | 2007 | 哈利·波特与死亡圣器（哈利·波特，第7部） | Harry Potter and the Deathly Hallows (Harry Potter, #7) | J.K. 罗琳 | J. K. Rowling | 8. 文学 |
+| TOP76 | 2014 | 正义的慈悲 | Just Mercy: A Story of Justice and Redemption | 布莱恩·史蒂文森 | Bryan Stevenson | 9. 历史与地理 |
+| TOP77 | 2021 | 被束缚的 | Manacled | SenLinYu | SenLinYu | 8. 文学 |
+| TOP78 | 2020 | 地球上最幸福的人 | The Happiest Man on Earth | 埃迪·雅库 | Eddie Jaku | 7. 艺术与休闲 |
+| TOP79 | 2022 | 一颗有效的心 | A Heart That Works | 罗布·德莱尼 | Tawan Tongma | 7. 艺术与休闲 |
+| TOP80 | 2023 | 逆转（苦涩交响曲二部曲，第2部） | Reverse (The Bittersweet Symphony Duet, #2) | 凯特·斯图尔特 | Eldad Eilam | 8. 文学 |
+| TOP81 | 2017 | 空坟（洛克伍德事务所，第5部） | The Empty Grave (Lockwood & Co., #5) | 乔纳森·斯特劳德 | Jonathan Stroud | 8. 文学 |
+| TOP82 | 2020 | 白色恶魔（吞日者，第3部） | Demon in White (The Sun Eater, #3) | 克里斯托弗·鲁奥基奥 | Christopher Ruocchio | 8. 文学 |
+| TOP83 | 2024 | 心跳（第6卷） | Heartstopper: Volume 6 | 爱丽丝·奥斯曼 | Alice Oseman | 7. 艺术与休闲 |
+| TOP84 | 2024 | 午夜黑暗（灰人，第14部） | Midnight Black (Gray Man, #14) | 马克·格里尼 | Mark Greaney | 8. 文学 |
+| TOP85 | 2024 | 灾难俱乐部 | The Calamity Club | 凯瑟琳·斯托克特 | Kathryn Stockett | 8. 文学 |
+| TOP86 | 1987 | 卡尔文与霍布斯（第1卷） | Calvin and Hobbes (Calvin and Hobbes, #1) | 比尔·沃特森 | Bill Watterson | 8. 文学 |
+| TOP87 | 2011 | 迷雾之子三部曲套装 | Mistborn Trilogy Boxed Set | 布兰登·桑德森 | Brandon Sanderson | 8. 文学 |
+| TOP88 | 2021 | 翡翠遗产（绿骨传奇，第3部） | Jade Legacy (The Green Bone Saga, #3) | 方达·李 | Fonda Lee | 9. 历史与地理 |
+| TOP89 | 2024 | 遗产（破坏战争，第1部） | The Inheritance (Breach Wars, #1) | 伊洛娜·安德鲁斯 | Jennifer Lynn Barnes | 9. 历史与地理 |
+| TOP90 | 2021 | 药剂师日记（第6卷） | The Apothecary Diaries (Vol. 6) | ねこくらげ | Nekokurage | 8. 文学 |
+| TOP91 | 2017 | 誓言使者（风暴之光档案，第3部） | Oathbringer (The Stormlight Archive, #3) | 布兰登·桑德森 | Brandon Sanderson | 8. 文学 |
+| TOP92 | 1985 | 孤独鸽 | Lonesome Dove | 拉里·麦克默特里 | Larry McMurtry | 8. 文学 |
+| TOP93 | 2019 | 默里·麦克布莱德的五个愿望 | The Five Wishes of Mr. Murray McBride | 乔·西普尔 | Joe Siple | 8. 文学 |
+| TOP94 | 2021 | 麻烦与和平（疯狂时代，第2部） | The Trouble with Peace (The Age of Madness, #2) | 乔·阿伯克龙比 | Joe Abercrombie | 8. 文学 |
+| TOP95 | 1987 | 阿莎塔：自传 | Assata: An Autobiography | 阿莎塔·夏库尔 | Assata Shakur | 9. 历史与地理 |
+| TOP96 | 2020 | 海在诉说他的名字 | Laut Bercerita | 莱拉·S·丘多里 | Leila S. Chudori | 8. 文学 |
+| TOP97 | 2016 | 海洋述说（Laut Bercerita） | Laut Bercerita | 莱拉·S·丘多里 | Leila S. Chudori | 8. 文学 |
+| TOP98 | 2024 | 死亡摇滚（DCI Ryan 谜案，第21部） | Death Rocks (DCI Ryan Mysteries, #21) | L.J. Ross | Michael Allegretto | 8. 文学 |
+| TOP99 | 2017 | 约定的梦幻岛（第4卷） | 約束のネバーランド 4 (Yakusoku no Neverland 4) | 白井カイウ | Kaiu Shirai | 8. 文学 |
+| TOP100 | 2020 | 战争之主（撒克逊故事，第13部） | War Lord (The Saxon Stories, #13) | 伯纳德·康威尔 | Paul S. Kemp | 9. 历史与地理 |
+| TOP101 | 2023 | 蛾（怪物，第5部） | Moth (Monstrous, #5) | 莉莉·梅恩 | Georgette Heyer | 8. 文学 |
+| TOP102 | 2023 | 最后 resort（乔·迪拉德，第10部） | Last Resort (Joe Dillard #10) | 斯科特·普拉特 | Carolyn Keene | 8. 文学 |
+| TOP103 | 2013 | 蠕虫（超人类，第1部） | Worm (Parahumans, #1) | Wildbow | John C. McCrae (Wildbow) | 8. 文学 |
+| TOP104 | 2024 | 火与歌（风暴编织者，第2部） | Fire and Song (Warformed: Stormweaver, #2) | 布莱斯·奥康纳 | Bryce O'Connor | 9. 历史与地理 |
+| TOP105 | 2024 | 原始猎人9（原始猎人，第9部） | The Primal Hunter 9 | Zogarth | Zogarth | 7. 艺术与休闲 |
+| TOP106 | 1955 | 王者归来（魔戒，第3部） | The Return of the King (The Lord of the Rings, #3) | J.R.R. Tolkien | J.R.R. Tolkien | 8. 文学 |
+| TOP107 | 1955 | 王者归来（魔戒，第3部） | The Return of the King (The Lord of the Rings, #3) | J.R.R. 托尔金 | J.R.R. Tolkien | 8. 文学 |
+| TOP108 | 2013 | 记忆之光（时间之轮，第14部） | A Memory of Light (The Wheel of Time, #14) | 罗伯特·乔丹 | Robert Jordan | 8. 文学 |
+| TOP109 | 2023 | 奔跑的坟墓（科莫兰·斯特莱克，第7部） | The Running Grave (Cormoran Strike, #7) | 罗伯特·加尔布雷思（J.K.罗琳） | Robert Galbraith | 8. 文学 |
+| TOP110 | 2009 | 火影忍者（第43卷） | Naruto (Vol. 43) | 岸本齐史 | Masashi Kishimoto | 9. 历史与地理 |
+| TOP111 | 2014 | 寻找安拉，遇见耶稣 | Seeking Allah, Finding Jesus | 纳比勒·库雷希 | Nabeel Qureshi | 8. 文学 |
+| TOP112 | 2020 | 繁星散落时 | When Stars Are Scattered | 维多利亚·贾米森 | Victoria Jamieson | 8. 文学 |
+| TOP113 | 2015 | 某种完美（卡洛韦姐妹，第5部） | Some Kind of Perfect (Calloway Sisters, #5) | 克里斯塔·里奇 | Krista Ritchie | 8. 文学 |
+| TOP114 | 2023 | 所有闪烁的星星 | All the Glimmering Stars | 马克·T·沙利文 | Mark T. Sullivan | 8. 文学 |
+| TOP115 | 2016 | 暗语者（火翼传说） | Darkstalker (Wings of Fire: Legends, #1) | Tui T. 萨瑟兰 | Tui T. Sutherland | 9. 历史与地理 |
+| TOP116 | 2016 | 暗语者（火翼传说） | Darkstalker (Wings of Fire: Legends, #1) | Tui T. Sutherland | Tui T. Sutherland | 9. 历史与地理 |
+| TOP117 | 2015 | 我的英雄学院（第5卷） | My Hero Academia (Vol. 5) | 堀越耕平 | Kohei Horikoshi | 8. 文学 |
+| TOP118 | 2024 | 未完成的爱情故事 | An Unfinished Love Story | 多丽丝·卡恩斯·古德温 | Doris Kearns Goodwin | 9. 历史与地理 |
+| TOP119 | 2019 | 冒险地带（第2卷） | The Adventure Zone (Vol. 2) | 克林特·麦克尔罗伊 | Clint McElroy | 8. 文学 |
+| TOP120 | 2021 | 全知读者（第5卷） | Solo Leveling, Vol. 5 | Dubu | 추공 | 8. 文学 |
+| TOP121 | 2019 | 沉默的打破（风暴与沉默，第4部） | Silence Breaking (Storm and Silence, #4) | 罗伯特·蒂尔 | Diane Chamberlain | 8. 文学 |
+| TOP122 | 2023 | 严重关注（DCI Evan Warlow，第5部） | Gravely Concerned (DCI Evan Warlow #5) | Rhys Dylan | Rebecca Tope | 9. 历史与地理 |
+| TOP123 | 2024 | 女性们 | The Women | 克里斯汀·汉娜 | Clarissa Pinkola Estés | 8. 文学 |
+| TOP124 | 1996 | 完整的鼠族 | The Complete Maus | 阿特·斯皮格曼 | Art Spiegelman | 8. 文学 |
+| TOP125 | 1996 | 睡魔（第9卷）：仁慈者 | The Sandman (Vol. 9) | 尼尔·盖曼 | Neil Gaiman | 8. 文学 |
+| TOP126 | 1997 | 被当作狗养大的男孩 | The Boy Who Was Raised as a Dog | 布鲁斯·D·佩里 | Bruce Duncan Perry | 8. 文学 |
+| TOP127 | 2024 | 死亡之缘（死亡，第60部） | Bonded in Death (In Death, #60) | J.D. 罗布 | Nora Roberts | 8. 文学 |
+| TOP128 | 2024 | 死亡之缘（死亡，第60部） | Bonded in Death (In Death, #60) | J.D. Robb | Nora Roberts | 8. 文学 |
+| TOP129 | 2024 | 黎明帝国（吸血鬼帝国，第3部） | Empire of the Dawn (Empire of the Vampire, #3) | 杰伊·克里斯托夫 | Jay Kristoff | 9. 历史与地理 |
+| TOP130 | 2021 | 解绑：我的解放故事与Me Too运动的诞生 | Unbound: My Story of Liberation | 塔拉纳·伯克 | Tarana Burke | 8. 文学 |
+| TOP131 | 2005 | 浦泽直树的怪物（第1卷） | Monster (Vol. 1) | 浦泽直树 | Naoki Urasawa | 8. 文学 |
+| TOP132 | 2013 | 光的消逝（骷髅侠愉快，第9部） | The Dying of the Light (Skulduggery Pleasant, #9) | 德里克·兰迪 | George R. R. Martin | 8. 文学 |
+| TOP133 | 2020 | 幸运的改变（琼斯夫人谜案，第11部） | Change of Fortune (Miss Fortune Mystery, #11) | 贾娜·德莱昂 | Sandra Heath | 8. 文学 |
+| TOP134 | 2013 | 哈迪斯之屋（奥林匹斯英雄，第4部） | The House of Hades (The Heroes of Olympus, #4) | 雷克·莱尔顿 | Lars Albinus | 8. 文学 |
+| TOP135 | 2020 | 战争节奏（风暴之光档案，第4部） | Rhythm of War (The Stormlight Archive, #4) | Brandon Sanderson | Brandon Sanderson | 9. 历史与地理 |
+| TOP136 | 2017 | 选择：拥抱可能性 | The Choice: Embrace the Possible | Edith Eger | Edith Eger | 8. 文学 |
+| TOP137 | 1994 | 风中之声（狮子印记，第1部） | A Voice in the Wind (Mark of the Lion, #1) | 弗兰辛·里弗斯 | Kathryn Lasky | 8. 文学 |
+| TOP138 | 2019 | 提亚马特之怒（苍穹浩瀚，第8部） | Tiamat's Wrath (The Expanse, #8) | James S.A. Corey | James S. A. Corey | 8. 文学 |
+| TOP139 | 2009 | 最后的奥林匹亚人（波西·杰克逊，第5部） | The Last Olympian (Percy Jackson and the Olympians, #5) | Rick Riordan | Rick Riordan | 8. 文学 |
+| TOP140 | 2016 | 弯曲王国（六乌鸦，第2部） | Crooked Kingdom (Six of Crows, #2) | 利·巴杜戈 | Leigh Bardugo | 8. 文学 |
+| TOP141 | 2008 | 英雄时代（迷雾之子，第3部） | The Hero of Ages (Mistborn, #3) | 布兰登·桑德森 | Brandon Sanderson | 8. 文学 |
+| TOP142 | 2014 | 皮肤游戏（德累斯顿档案，第15部） | Skin Game (Dresden Files, #15) | Jim Butcher | Jim Butcher | 7. 艺术与休闲 |
+| TOP143 | 2008 | 阿切隆（黑暗猎人，第14部） | Acheron (Dark-Hunter, #14) | Sherrilyn Kenyon | Sherrilyn Kenyon | 8. 文学 |
+| TOP144 | 2000 | 冰雨的风暴（冰与火之歌，第3部） | A Storm of Swords (A Song of Ice and Fire, #3) | George R.R. Martin | George R. R. Martin | 7. 艺术与休闲 |
+| TOP145 | 2011 | 智者的恐惧（弑君者编年史，第2部） | The Wise Man's Fear (The Kingkiller Chronicle, #2) | 帕特里克·罗斯福斯 | Patrick Rothfuss | 9. 历史与地理 |
+| TOP146 | 2011 | 发条公主（机械师三部曲，第3部） | Clockwork Princess (The Infernal Devices, #3) | Cassandra Clare | Cassandra Clare | 8. 文学 |
+| TOP147 | 2016 | 晨星（红色崛起传奇，第3部） | Morning Star (Red Rising Saga, #3) | 皮尔斯·布朗 | Pierce Brown | 9. 历史与地理 |
+| TOP148 | 2014 | 写在我心中的血（外乡人，第8部） | Written in My Own Heart's Blood (Outlander, #8) | Diana Gabaldon | Diana Gabaldon | 7. 艺术与休闲 |
+| TOP149 | 1963 | 下一次大火 | The Fire Next Time | James Baldwin | James Baldwin | 8. 文学 |
+| TOP150 | 2003 | 钢之炼金术师（第1卷） | Fullmetal Alchemist, Vol. 1 | Hiromu Arakawa | 荒川弘 | 8. 文学 |
+| TOP151 | 2004 | 最黑暗的时刻（猫武士，第6部） | The Darkest Hour (Warriors, #6) | Erin Hunter | Erin Hunter | 9. 历史与地理 |
+| TOP152 | 1991 | 睡魔（第4卷）：雾之季 | The Sandman (Vol. 4) | Neil Gaiman | Neil Gaiman | 8. 文学 |
+| TOP153 | 2007 | 风之名（弑君者编年史，第1部） | The Name of the Wind (The Kingkiller Chronicle, #1) | 帕特里克·罗斯福斯 | Patrick Rothfuss | 9. 历史与地理 |
+| TOP154 | 2015 | 金之子（红色崛起传奇，第2部） | Golden Son (Red Rising Saga, #2) | 皮尔斯·布朗 | Pierce Brown | 9. 历史与地理 |
+| TOP155 | 1991 | 救赎之爱 | Redeeming Love | Francine Rivers | Francine Rivers | 8. 文学 |
+| TOP156 | 2017 | 心的无形愤怒 | The Heart's Invisible Furies | 约翰·博因 | John Boyne | 7. 艺术与休闲 |
+| TOP157 | 2002 | 夜巡（碟形世界，第29部；城市守望，第6部） | Night Watch (Discworld, #29; City Watch, #6) | Terry Pratchett | Terry Pratchett | 8. 文学 |
+| TOP158 | 2016 | 生而有罪：南非童年故事 | Born a Crime: Stories from a South African Childhood | 特雷弗·诺亚 | R. Rau | 8. 文学 |
+| TOP159 | 1996 | 绿里 | The Green Mile | 斯蒂芬·金 | Stephen King | 8. 文学 |
+| TOP160 | 2014 | 终有一死：医学与最终重要的事 | Being Mortal: Medicine and What Matters in the End | Atul Gawande | EssentialReads | 6. 技术 |
+| TOP161 | 2015 | 拯救我生命的战争（拯救我生命的战争，第1部） | The War That Saved My Life (The War That Saved My Life, #1) | Kimberly Brubaker Bradley | Kimberly Brubaker Bradley | 9. 历史与地理 |
+| TOP162 | 2013 | 传奇（第2卷） | Saga, Volume 2 | Brian K. Vaughan | Stan Sakai | 9. 历史与地理 |
+| TOP163 | 2018 | 所以你想谈论种族 | So You Want to Talk About Race | Ijeoma Oluo | Ijeoma Oluo | 8. 文学 |
+| TOP164 | 2009 | 相助 | The Help | 凯瑟琳·斯托克特 | Kathryn Stockett | 8. 文学 |
+| TOP165 | 2016 | 回家 | Homegoing | Yaa Gyasi | Yaa Gyasi | 8. 文学 |
+| TOP166 | 2015 | 迷失孩子的故事（那不勒斯四部曲，第4部） | The Story of the Lost Child | Elena Ferrante | Elena Ferrante | 8. 文学 |
+| TOP167 | 2007 | 黑人书 | The Book of Negroes | Lawrence Hill | Lawrence Hill | 3. 社会科学 |
+| TOP168 | 2018 | 受教育 | Educated | Tara Westover | Tara Westover | 8. 文学 |
+| TOP169 | 2007 | 灿烂千阳 | A Thousand Splendid Suns | 卡勒德·胡赛尼 | Khaled Hosseini | 8. 文学 |
+| TOP170 | 2004 | 耶稣呼唤：在他的同在享受平安 | Jesus Calling: Enjoying Peace in His Presence | Sarah Young | Sarah Young | 8. 文学 |
+| TOP171 | 1996 | 权力的游戏（冰与火之歌，第1部） | A Game of Thrones (A Song of Ice and Fire, #1) | 乔治·R·R·马丁 | George R. R. Martin | 3. 社会科学 |
+| TOP172 | 2014 | 火之遗产（玻璃王座，第3部） | Heir of Fire (Throne of Glass, #3) | 莎拉·J·马斯 | Sarah J. Maas | 8. 文学 |
+| TOP173 | 2015 | 六乌鸦（六乌鸦，第1部） | Six of Crows (Six of Crows, #1) | 利·巴杜戈 | Leigh Bardugo | 8. 文学 |
+| TOP174 | 2017 | 你给的仇恨 | The Hate U Give | 安吉·托马斯 | Angie Thomas | 8. 文学 |
+| TOP175 | 1976 | 根：一个美国家族的传奇 | Roots: The Saga of an American Family | Alex Haley | Alex Haley | 9. 历史与地理 |
+| TOP176 | 2018 | 黑曜石（伊卢米纳档案，第3部） | Obsidio (The Illuminae Files, #3) | Amie Kaufman | Amie Kaufman | 8. 文学 |
+| TOP177 | 2018 | 成为 | Becoming | Michelle Obama | Paul Kalanithi | 8. 文学 |
+| TOP178 | 2006 | 觉醒的爱人（黑 Dagger兄弟会，第3部） | Lover Awakened (Black Dagger Brotherhood, #3) | J.R. Ward | J. R. Ward | 9. 历史与地理 |
+| TOP179 | 2011 | 火星救援 | The Martian | 安迪·威尔 | Andy Weir | 7. 艺术与休闲 |
+| TOP180 | 2015 | 国王崛起（被俘王子，第3部） | Kings Rising (Captive Prince, #3) | C.S. Pacat | C. S. Pacat | 8. 文学 |
+| TOP181 | 2013 | 第五个坟墓过去的光（查理·戴维森，第5部） | Fifth Grave Past the Light (Charley Davidson, #5) | Darynda Jones | Darynda Jones | 8. 文学 |
+| TOP182 | 2015 | 冬天（月球编年史，第4部） | Winter (The Lunar Chronicles, #4) | Marissa Meyer | Marissa Meyer | 9. 历史与地理 |
+| TOP183 | 2018 | 噩梦缪斯（奇异的梦人，第2部） | Muse of Nightmares (Strange the Dreamer, #2) | Laini Taylor | Laini Taylor | 8. 文学 |
+| TOP184 | 2018 | 心跳（第1卷） | Heartstopper (Vol. 1) | Alice Oseman | Alice Oseman | 7. 艺术与休闲 |
+| TOP185 | 2018 | 坏血：硅谷的秘密与谎言 | Bad Blood: Secrets and Lies in a Silicon Valley Startup | 约翰·卡雷鲁 | Bradley Hope Tom Wright | 7. 艺术与休闲 |
+| TOP186 | 2014 | 我们都应该是女权主义者 | We Should All Be Feminists | Chimamanda Ngozi Adichie | Chimamanda Ngozi Adichie | 8. 文学 |
+| TOP187 | 2018 | 蝲蛄吟唱的地方 | Where the Crawdads Sing | 迪莉娅·欧文斯 | Delia Owens | 8. 文学 |
+| TOP188 | 2018 | 雷霆（镰刀之弧，第2部） | Thunderhead (Arc of a Scythe, #2) | Neal Shusterman | Neal Shusterman | 8. 文学 |
+| TOP189 | 2012 | 奇迹（奇迹，第1部） | Wonder (Wonder, #1) | R.J. Palacio | R. J. Palacio | 8. 文学 |
+| TOP190 | 2021 | 血肉与火之王国（血与灰，第2部） | A Kingdom of Flesh and Fire (Blood and Ash, #2) | Jennifer L. Armentrout | Jennifer L. Armentrout | 8. 文学 |
+| TOP191 | 2020 | 应许之地 | A Promised Land | Barack Obama | Barack Obama | 8. 文学 |
+| TOP192 | 2004 | 三联画 | Triptych | Karin Slaughter | Karin Slaughter | 8. 文学 |
+| TOP193 | 2016 | 以我们结束（以我们结束，第1部） | It Ends with Us (It Ends with Us, #1) | Colleen Hoover | Colleen Hoover | 8. 文学 |

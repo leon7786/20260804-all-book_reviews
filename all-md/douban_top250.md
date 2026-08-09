@@ -1,0 +1,253 @@
+# douban_top250
+
+| 排名/标识 | 出版年份 | 中文书名 | 外文原名 | 中文作者 | 外文作者 | 专属分类 |
+|---|---|---|---|---|---|---|
+| TOP1 | 1791 | 红楼梦 | - | [清] 曹雪芹 | - | 8. 文学 |
+| TOP2 | 1992 | 活着 | - | 余华 | - | 8. 文学 |
+| TOP3 | 1997 | 哈利·波特 | Harry Potter | [英] J·K·罗琳 | J. K. Rowling | 8. 文学 |
+| TOP4 | 1949 | 1984 | Nineteen Eighty-Four | [英] 乔治·奥威尔 | George Orwell | 8. 文学 |
+| TOP5 | 2006 | 三体全集 | 三体 | 刘慈欣 | 刘慈欣 | 8. 文学 |
+| TOP6 | 1967 | 百年孤独 | Cien años de soledad | [哥伦比亚] 加西亚·马尔克斯 | Gabriel García Márquez | 8. 文学 |
+| TOP7 | 1936 | 飘 | Gone with the Wind | [美国] 玛格丽特·米切尔 | Margaret Mitchell | 8. 文学 |
+| TOP8 | 1945 | 动物农场 | Animal Farm | [英] 乔治·奥威尔 | George Orwell | 8. 文学 |
+| TOP9 | 2017 | 房思琪的初恋乐园 | - | 林奕含 | - | 8. 文学 |
+| TOP10 | 1522 | 三国演义 | - | [明] 罗贯中 | - | 8. 文学 |
+| TOP11 | 1887 | 福尔摩斯探案全集 | Sherlock Holmes | [英] 阿·柯南道尔 | Arthur Conan Doyle | 8. 文学 |
+| TOP12 | 1999 | 白夜行 | Journey Under the Midnight Sun | [日] 东野圭吾 | Keigo Higashino | 8. 文学 |
+| TOP13 | 2011 | 邓小平时代 | Deng Xiaoping and the Transformation of China | [美] 傅高义 | Ezra F. Vogel | 8. 文学 |
+| TOP14 | 1923 | 呐喊 | - | 鲁迅 | - | 8. 文学 |
+| TOP15 | 1943 | 小王子 | Le Petit Prince | [法国] 安东尼·德·圣-埃克苏佩里 | Antoine de Saint-Exupéry | 8. 文学 |
+| TOP16 | 1835 | 安徒生童话故事集 | Hans Christian Andersen's Fairy Tales | [丹麦] 安徒生 | Hans Christian Andersen | 8. 文学 |
+| TOP17 | 1976 | 撒哈拉的故事 | - | 三毛 | - | 8. 文学 |
+| TOP18 | 1880 | 卡拉马佐夫兄弟 | Братья Карамазовы | [俄] 陀思妥耶夫斯基 | Fyodor Dostoyevsky | 8. 文学 |
+| TOP19 | 2014 | 失踪的孩子 | Storia della bambina perduta | [意] 埃莱娜·费兰特 | Elena Ferrante | 8. 文学 |
+| TOP20 | 2012 | 新名字的故事 | Storia del nuovo cognome | [意] 埃莱娜·费兰特 | Elena Ferrante | 8. 文学 |
+| TOP21 | 1963 | 天龙八部 | - | 金庸 | - | 8. 文学 |
+| TOP22 | 1960 | 杀死一只知更鸟 | To Kill a Mockingbird | [美] 哈珀·李 | Harper Lee | 8. 文学 |
+| TOP23 | 2006 | 明朝那些事儿 | - | 当年明月 | - | 8. 文学 |
+| TOP24 | 1936 | 故事新编 | - | 鲁迅 | - | 8. 文学 |
+| TOP25 | 1926 | 罗杰疑案 | The Murder of Roger Ackroyd | [英] 阿加莎·克里斯蒂 | Agatha Christie | 8. 文学 |
+| TOP26 | 1952 | 中国历代政治得失 | - | 钱穆 | - | 3. 社会科学 |
+| TOP27 | 1997 | 沉默的大多数 | - | 王小波 | - | 8. 文学 |
+| TOP28 | 1991 | 我与地坛 | - | 史铁生 | - | 9. 历史与地理 |
+| TOP29 | 1995 | 许三观卖血记 | - | 余华 | - | 8. 文学 |
+| TOP30 | 1942 | 局外人 | L'Étranger | [法] 阿尔贝·加缪 | Albert Camus | 8. 文学 |
+| TOP31 | 1926 | 彷徨 | - | 鲁迅 | - | 8. 文学 |
+| TOP32 | 1993 | 白鹿原 | - | 陈忠实 | - | 8. 文学 |
+| TOP33 | 1922 | 悉达多 | Siddhartha | [德] 赫尔曼·黑塞 | Hermann Hesse | 7. 艺术与休闲 |
+| TOP34 | 1947 | 乡土中国 | - | 费孝通 | - | 3. 社会科学 |
+| TOP35 | 2011 | 人类简史 | Sapiens: A Brief History of Humankind | [以色列] 尤瓦尔·赫拉利 | BookNation | 9. 历史与地理 |
+| TOP36 | 1986 | 平凡的世界 | - | 路遥 | - | 8. 文学 |
+| TOP37 | 1947 | 围城 | - | 钱锺书 | - | 8. 文学 |
+| TOP38 | 1959 | 献给阿尔吉侬的花束 | Flowers for Algernon | [美] 丹尼尔·凯斯 | Daniel Keyes | 8. 文学 |
+| TOP39 | 1967 | 笑傲江湖 | - | 金庸 | - | 8. 文学 |
+| TOP40 | 1934 | 东方快车谋杀案 | Murder on the Orient Express | [英] 阿加莎·克里斯蒂 | Agatha Christie | 8. 文学 |
+| TOP41 | 1960 | 城南旧事 | - | 林海音 | - | 8. 文学 |
+| TOP42 | 1982 | 肖申克的救赎 | Different Seasons | [美] 斯蒂芬·金 | Stephen King | 8. 文学 |
+| TOP43 | 2001 | 江城 | River Town | [美] 彼得·海斯勒 | Peter Hessler | 8. 文学 |
+| TOP44 | 1844 | 基督山伯爵 | Le Comte de Monte-Cristo | [法国] 大仲马 | Alexandre Dumas | 8. 文学 |
+| TOP45 | 1928 | 朝花夕拾 | - | 鲁迅 | - | 8. 文学 |
+| TOP46 | 1981 | 万历十五年 | 1587, A Year of No Significance | [美] 黄仁宇 | Ray Huang | 9. 历史与地理 |
+| TOP47 | 1985 | 霍乱时期的爱情 | El amor en los tiempos del cólera | [哥伦比亚] 加西亚·马尔克斯 | Gabriel García Márquez | 8. 文学 |
+| TOP48 | 1950 | 艺术的故事 | The Story of Art | [英] 贡布里希 | E. H. Gombrich | 7. 艺术与休闲 |
+| TOP49 | 2021 | 置身事内 | - | 兰小欢 | - | 8. 文学 |
+| TOP50 | 2010 | 厌女 | Misogyny | [日] 上野千鹤子 | Chizuko Ueno | 8. 文学 |
+| TOP51 | 1957 | 射雕英雄传 | - | 金庸 | - | 9. 历史与地理 |
+| TOP52 | 1919 | 月亮和六便士 | The Moon and Sixpence | [英] 毛姆 | William Somerset Maugham | 8. 文学 |
+| TOP53 | 1592 | 西游记 | - | 吴承恩 | - | 9. 历史与地理 |
+| TOP54 | 1939 | 无人生还 | And Then There Were None | [英] 阿加莎·克里斯蒂 | Agatha Christie | 8. 文学 |
+| TOP55 | 2003 | 追风筝的人 | The Kite Runner | [美] 卡勒德·胡赛尼 | Khaled Hosseini | 8. 文学 |
+| TOP56 | 2020 | 秋园 | - | 杨本芬 | - | 8. 文学 |
+| TOP57 | 2010 | 寻路中国 | Country Driving | [美] 彼得·海斯勒 | Peter Hessler | 8. 文学 |
+| TOP58 | 1944 | 刀锋 | The Razor's Edge | [英] 毛姆 | William Somerset Maugham | 8. 文学 |
+| TOP59 | 1812 | 格林童话全集 | Kinder- und Hausmärchen | [德] 格林兄弟 | Gebrüder Grimm [Brothers Grimm] | 8. 文学 |
+| TOP60 | 1957 | 树上的男爵 | Il barone rampante | [意大利] 伊塔洛·卡尔维诺 | Italo Calvino | 8. 文学 |
+| TOP61 | 1991 | 中国少年儿童百科全书 | - | 林崇德 | - | 8. 文学 |
+| TOP62 | 1929 | 一间只属于自己的房间 | A Room of One's Own | [英] 弗吉尼亚·伍尔夫 | Virginia Woolf | 8. 文学 |
+| TOP63 | 2022 | 可能性的艺术 | - | 刘瑜 | - | 7. 艺术与休闲 |
+| TOP64 | 2023 | 太白金星有点烦 | - | 马伯庸 | - | 8. 文学 |
+| TOP65 | 2021 | 刘擎西方现代思想讲义 | - | 刘擎 | - | 1. 哲学与心理学 |
+| TOP66 | 1947 | 鼠疫 | La Peste | [法] 阿尔贝·加缪 | Albert Camus | 8. 文学 |
+| TOP67 | 2005 | 嫌疑人X的献身 | 容疑者Xの献身 | [日] 东野圭吾 | 東野圭吾 | 8. 文学 |
+| TOP68 | 1983 | 孽子 | - | 白先勇 | - | 8. 文学 |
+| TOP69 | 1813 | 傲慢与偏见 | Pride and Prejudice | [英] 奥斯丁 | Jane Austen | 8. 文学 |
+| TOP70 | 1997 | 黄金时代 | - | 王小波 | - | 8. 文学 |
+| TOP71 | 1997 | 南京大屠杀 | The Rape of Nanking | [美] 张纯如 | Iris Chang | 8. 文学 |
+| TOP72 | 1971 | 台北人 | - | 白先勇 | - | 8. 文学 |
+| TOP73 | 1944 | 四世同堂 | - | 老舍 | - | 8. 文学 |
+| TOP74 | 前91 | 史记 | - | [汉] 司马迁 | - | 9. 历史与地理 |
+| TOP75 | 1862 | 悲惨世界 | Les Misérables | [法] 雨果 | Victor Hugo | 8. 文学 |
+| TOP76 | 1952 | 毛泽东选集 | - | 毛泽东 | - | 8. 文学 |
+| TOP77 | 2020 | 流俗地 | Bumi Manusia | [马来西亚] 黎紫书 | Li Zishu | 8. 文学 |
+| TOP78 | 1955 | 永恒的终结 | The End of Eternity | [美] 艾萨克·阿西莫夫 | Isaac Asimov | 8. 文学 |
+| TOP79 | 前600 | 诗经 | - | 孔丘 | - | 8. 文学 |
+| TOP80 | 2012 | 一个叫欧维的男人决定去死 | En man som heter Ove | [瑞典] 弗雷德里克·巴克曼 | Fredrik Backman | 8. 文学 |
+| TOP81 | 2016 | 明亮的夜晚 | Shoko's Smile | [韩] 崔恩荣 | Choi Eun-young | 8. 文学 |
+| TOP82 | 1932 | 美丽新世界 | Brave New World | [英] 奥尔德斯·赫胥黎 | Aldous Huxley | 8. 文学 |
+| TOP83 | 2014 | 绝叫 | 絶叫 | [日] 叶真中显 | 申禮善 | 8. 文学 |
+| TOP84 | 2007 | 灿烂千阳 | A Thousand Splendid Suns | [美] 卡勒德·胡赛尼 | Khaled Hosseini | 8. 文学 |
+| TOP85 | 2021 | 始于极限 | Starting from the Limit | [日] 上野千鹤子 | Chizuko Ueno | 8. 文学 |
+| TOP86 | 1959 | 神雕侠侣 | - | 金庸 | - | 8. 文学 |
+| TOP87 | 1763 | 唐诗三百首 | - | 蘅塘退士 | - | 8. 文学 |
+| TOP88 | 1997 | 历史深处的忧虑 | - | 林达 | - | 9. 历史与地理 |
+| TOP89 | 1981 | 窗边的小豆豆 | Totto-chan | [日] 黑柳彻子 | Tetsuko Kuroyanagi | 8. 文学 |
+| TOP90 | 1981 | 美的历程 | - | 李泽厚 | - | 8. 文学 |
+| TOP91 | 2014 | 筚路维艰 | - | 萧冬连 | - | 8. 文学 |
+| TOP92 | 1940 | 呼兰河传 | - | 萧红 | - | 9. 历史与地理 |
+| TOP93 | 2006 | 上帝掷骰子吗 | - | 曹天元 | - | 8. 文学 |
+| TOP94 | 1977 | 哭泣的骆驼 | - | 三毛 | - | 8. 文学 |
+| TOP95 | 2014 | 最好的告别 | Being Mortal | [美] 阿图·葛文德 | Atul Gawande | 8. 文学 |
+| TOP96 | 2013 | 离开的，留下的 | Storia di chi fugge e di chi resta | [意] 埃莱娜·费兰特 | Elena Ferrante | 8. 文学 |
+| TOP97 | 2012 | 冬牧场 | - | 李娟 | - | 8. 文学 |
+| TOP98 | 1929 | 西线无战事 | Im Westen nichts Neues | [德] 埃里希·玛丽亚·雷马克 | Erich Maria Remarque | 8. 文学 |
+| TOP99 | 1866 | 罪与罚 | Преступление и наказание | [俄] 陀思妥耶夫斯基 | Фёдор Михайлович Достоевский | 8. 文学 |
+| TOP100 | 1984 | 棋王·树王·孩子王 | - | 阿城 | - | 8. 文学 |
+| TOP101 | 1910 | 人间词话 | - | 王国维 | - | 8. 文学 |
+| TOP102 | 2019 | 也许你该找个人聊聊 | Maybe You Should Talk to Someone | [美] 洛莉·戈特利布 | Lori Gottlieb | 8. 文学 |
+| TOP103 | 1990 | 叫魂 | Soulstealers | [美] 孔飞力 | Philip A. Kuhn | 8. 文学 |
+| TOP104 | 2017 | 遥远的向日葵地 | - | 李娟 | - | 8. 文学 |
+| TOP105 | 1884 | 平面国 | Flatland | [英] 埃德温·A·艾勃特 | Edwin Abbott Abbott | 8. 文学 |
+| TOP106 | 前400 | 道德经 | - | 老子 | - | 8. 文学 |
+| TOP107 | 2013 | 文学回忆录 | - | 木心 | - | 9. 历史与地理 |
+| TOP108 | 2009 | 桶川跟踪狂杀人事件 | The Stalker Murder in Okegawa | [日] 清水洁 | Kiyoshi Shimizu | 8. 文学 |
+| TOP109 | 1942 | 昨日的世界 | Die Welt von Gestern | [奥地利] 斯蒂芬·茨威格 | Stefan Zweig | 8. 文学 |
+| TOP110 | 2001 | 少年凯歌 | - | 陈凯歌 | - | 8. 文学 |
+| TOP111 | 1957 | 茶馆 | - | 老舍 | - | 8. 文学 |
+| TOP112 | 2011 | 浪潮之巅 | - | 吴军 | - | 8. 文学 |
+| TOP113 | 1980 | 受戒 | - | 汪曾祺 | - | 8. 文学 |
+| TOP114 | 2004 | 爱你就像爱生命 | - | 王小波 | - | 8. 文学 |
+| TOP115 | 2003 | 我们仨 | - | 杨绛 | - | 8. 文学 |
+| TOP116 | 2007 | 大明王朝1566 | - | 刘和平 | - | 8. 文学 |
+| TOP117 | 1995 | 失明症漫记 | Ensaio sobre a Cegueira | [葡] 若泽·萨拉马戈 | José Saramago | 8. 文学 |
+| TOP118 | 1915 | 人生的枷锁 | Of Human Bondage | [英] 毛姆 | William Somerset Maugham | 8. 文学 |
+| TOP119 | 2001 | 檀香刑 | - | 莫言 | - | 8. 文学 |
+| TOP120 | 2010 | 巨人的陨落 | Fall of Giants | [英] 肯·福莱特 | Ken Follett | 8. 文学 |
+| TOP121 | 1999 | 海子诗全编 | - | 海子 | - | 8. 文学 |
+| TOP122 | 2014 | 13 67 | - | 陳浩基 | - | 8. 文学 |
+| TOP123 | 1972 | 看不见的城市 | Le città invisibili | [意] 伊塔洛·卡尔维诺 | Italo Calvino | 8. 文学 |
+| TOP124 | 1969 | 教父 | The Godfather | [美] 马里奥·普佐 | Mario Puzo | 8. 文学 |
+| TOP125 | 2011 | 我的天才女友 | L'amica geniale | [意] 埃莱娜·费兰特 | Elena Ferrante | 8. 文学 |
+| TOP126 | 1851 | 人生的智慧 | Die Kunst, glücklich zu sein | [德] 叔本华 | Arthur Schopenhauer | 8. 文学 |
+| TOP127 | 1916 | 飞鸟集 | Stray Birds | [印] 罗宾德拉纳德·泰戈尔 | Rabindranath Tagore | 8. 文学 |
+| TOP128 | 1925 | 面纱 | The Painted Veil | [英] 威廉·萨默塞特·毛姆 | William Somerset Maugham | 8. 文学 |
+| TOP129 | 1864 | 地下室手记 | Записки из подполья | [俄] 陀思妥耶夫斯基 | Фёдор Михайлович Достоевский | 8. 文学 |
+| TOP130 | 2005 | 人间草木 | - | 汪曾祺 | - | 8. 文学 |
+| TOP131 | 2011 | 陆犯焉识 | - | 严歌苓 | - | 8. 文学 |
+| TOP132 | 1969 | 鹿鼎记 | - | 金庸 | - | 8. 文学 |
+| TOP133 | 2021 | 挽救计划 | Project Hail Mary | [美] 安迪·威尔 | Andy Weir | 8. 文学 |
+| TOP134 | 1934 | 边城 | - | 沈从文 | - | 8. 文学 |
+| TOP135 | 1961 | 十万个为什么 | - | 少年儿童出版社 | - | 8. 文学 |
+| TOP136 | 1965 | 斯通纳 | Stoner | [美] 约翰·威廉斯 | John Williams | 8. 文学 |
+| TOP137 | 1981 | 梦里花落知多少 | - | 三毛 | - | 8. 文学 |
+| TOP138 | 2005 | 额尔古纳河右岸 | - | 迟子建 | - | 8. 文学 |
+| TOP139 | 1989 | 克莱因壶 | Klein Bottle | [日] 冈岛二人 | Futari Okajima | 8. 文学 |
+| TOP140 | 1968 | 2001：太空漫游 | 2001: A Space Odyssey | [英] 阿瑟·克拉克 | Piers Bizony | 8. 文学 |
+| TOP141 | 1988 | 时间简史 | A Brief History of Time | [英] 史蒂芬·霍金 | Stephen Hawking | 5. 自然科学与数学 |
+| TOP142 | 1877 | 安娜·卡列尼娜 | Анна Каренина | [俄] 列夫·托尔斯泰 | Лев Толстой | 8. 文学 |
+| TOP143 | 1941 | 小径分岔的花园 | El jardín de senderos que se bifurcan | [阿根廷] 豪·路·博尔赫斯 | Jorge Luis Borges | 8. 文学 |
+| TOP144 | 2009 | 一句顶一万句 | - | 刘震云 | - | 8. 文学 |
+| TOP145 | 2011 | 这些人，那些事 | - | 吴念真 | - | 8. 文学 |
+| TOP146 | 1888 | 王尔德童话 | The Tales of Oscar Wilde | [英] 王尔德 | Oscar Wilde | 8. 文学 |
+| TOP147 | 1989 | 长日将尽 | The Remains of the Day | [英] 石黑一雄 | Kazuo Ishiguro | 8. 文学 |
+| TOP148 | 2006 | 强风吹拂 | Run with the Wind | [日] 三浦紫苑 | Shion Miura | 8. 文学 |
+| TOP149 | 2007 | 金色梦乡 | Golden Slumber | [日] 伊坂幸太郎 | Kotaro Isaka | 8. 文学 |
+| TOP150 | 2009 | 绿毛水怪 | - | 王小波 | - | 8. 文学 |
+| TOP151 | 1997 | 故事 | Story | [美] 罗伯特·麦基 | Stephen King | 8. 文学 |
+| TOP152 | 2010 | 阿勒泰的角落 | - | 李娟 | - | 8. 文学 |
+| TOP153 | 2018 | 你当像鸟飞往你的山 | Educated | [美] 塔拉·韦斯特弗 | Tara Westover | 8. 文学 |
+| TOP154 | 1948 | 半生缘 | - | 张爱玲 | - | 8. 文学 |
+| TOP155 | 1997 | 经济学原理 | Principles of Economics | [美] 曼昆 | N. Gregory Mankiw | 3. 社会科学 |
+| TOP156 | 1837 | 海的女儿 | The Little Mermaid | 安徒生 | Hans Christian Andersen | 8. 文学 |
+| TOP157 | 2005 | 天朝的崩溃 | - | 茅海建 | - | 8. 文学 |
+| TOP158 | 1989 | 东晋门阀政治 | - | 田余庆 | - | 3. 社会科学 |
+| TOP159 | 1982 | 万水千山走遍 | - | 三毛 | - | 8. 文学 |
+| TOP160 | 1996 | 冰与火之歌 | A Song of Ice and Fire | [美] 乔治·R.R.马丁 | George R. R. Martin | 8. 文学 |
+| TOP161 | 1940 | 國史大綱 | - | 錢穆 | - | 9. 历史与地理 |
+| TOP162 | 1992 | 鹿川有许多粪 | There is A Lot of Shit in Luchuan | [韩] 李沧东 | Lee Chang-dong | 8. 文学 |
+| TOP163 | 2013 | 李光耀观天下 | One Man's View of the World | 李光耀 | Lee Kuan Yew | 8. 文学 |
+| TOP164 | 1991 | 苏菲的世界 | Sofies verden | [挪] 乔斯坦·贾德 | Jostein Gaarder | 8. 文学 |
+| TOP165 | 2005 | 我不知道该说什么，关于死亡还是爱情 | Voices from Chernobyl | [白俄] S·A·阿列克谢耶维奇 | Svetlana Aelxievich | 8. 文学 |
+| TOP166 | 1979 | 温柔的夜 | - | 三毛 | - | 8. 文学 |
+| TOP167 | 2011 | 史蒂夫·乔布斯传 | Steve Jobs | [美] 沃尔特·艾萨克森 | Walter Isaacson | 9. 历史与地理 |
+| TOP168 | 2001 | 亮剑 | - | 都梁 | - | 8. 文学 |
+| TOP169 | 2011 | 一个女人的故事 | A Woman's Story | [法] 安妮·埃尔诺 | Annie Ernaux | 8. 文学 |
+| TOP170 | 1997 | 草房子 | - | 曹文轩 | - | 8. 文学 |
+| TOP171 | 1956 | 爱的艺术 | The Art of Loving | [美] 艾·弗洛姆 | Erich Fromm | 7. 艺术与休闲 |
+| TOP172 | 1922 | 一个陌生女人的来信 | Brief einer Unbekannten | [奥] 斯蒂芬·茨威格 | Stefan Zweig | 8. 文学 |
+| TOP173 | 1995 | 丰乳肥臀 | - | 莫言 | - | 8. 文学 |
+| TOP174 | 1996 | 恶意 | 悪意 | [日] 东野圭吾 | 東野圭吾 | 8. 文学 |
+| TOP175 | 2005 | 球状闪电 | - | 刘慈欣 | - | 8. 文学 |
+| TOP176 | 1984 | 不能承受的生命之轻 | Nesnesitelná lehkost bytí | [捷克] 米兰·昆德拉 | Milan Kundera | 8. 文学 |
+| TOP177 | 1919 | 德米安 | Demian | [德] 赫尔曼·黑塞 | Hermann Hesse | 8. 文学 |
+| TOP178 | 1857 | 包法利夫人 | Madame Bovary | [法] 福楼拜 | Gustave Flaubert | 8. 文学 |
+| TOP179 | 1970 | 全球通史 | A Global History | [美] 斯塔夫里阿诺斯 | Francis D. K. Ching | 9. 历史与地理 |
+| TOP180 | 2010 | 我的阿勒泰 | - | 李娟 | - | 8. 文学 |
+| TOP181 | 2024 | 康熙的红票 | - | 孙立天 | - | 8. 文学 |
+| TOP182 | 2010 | 亲密关系 | Intimate Relationships | [美] 罗兰·米勒 | Rowland S. Miller | 8. 文学 |
+| TOP183 | 1943 | 倾城之恋 | - | 张爱玲 | - | 8. 文学 |
+| TOP184 | 2016 | 天生有罪 | Born a Crime | [南非] 特雷弗·诺亚 | Trevor Noah | 8. 文学 |
+| TOP185 | 1975 | 帷幕 | Curtain | [英] 阿加莎·克里斯蒂 | Agatha Christie | 8. 文学 |
+| TOP186 | 1695 | 古文观止 | - | 吴楚材 | - | 8. 文学 |
+| TOP187 | 2019 | 看不见的女性 | Invisible Women | [英] 卡罗琳·克里亚多·佩雷斯 | Caroline Criado Perez | 8. 文学 |
+| TOP188 | 1905 | 麦琪的礼物 | The Gift of the Magi | [美] 欧·亨利 | O. Henry | 8. 文学 |
+| TOP189 | 2017 | 足利女童连续失踪事件 | Ashikaga Girls Disappearance Case | [日] 清水洁 | Kiyoshi Shimizu | 8. 文学 |
+| TOP190 | 1983 | 社会心理学 | Social Psychology | [美] 戴维·迈尔斯 | Robert A. Baron | 1. 哲学与心理学 |
+| TOP191 | 1986 | 雕刻时光 | Sculpting in Time | [苏] 安德烈·塔可夫斯基 | Andrei Tarkovsky | 8. 文学 |
+| TOP192 | 1981 | 一桩事先张扬的凶杀案 | Crónica de una muerte anunciada | [哥伦比亚] 加西亚·马尔克斯 | Gabriel García Márquez | 8. 文学 |
+| TOP193 | 1990 | 父权制与资本主义 | Patriarchy and Capitalism | [日] 上野千鹤子 | Chizuko Ueno | 3. 社会科学 |
+| TOP194 | 1951 | 银河帝国：基地七部曲 | Foundation Series | [美] 艾萨克·阿西莫夫 | Trishna Knowledge Systems | 9. 历史与地理 |
+| TOP195 | 1991 | 在细雨中呼喊 | - | 余华 | - | 8. 文学 |
+| TOP196 | 2004 | 我也有一个梦想 | - | 林达 | - | 8. 文学 |
+| TOP197 | 1937 | 尼罗河上的惨案 | Death on the Nile | [英] 阿加莎·克里斯蒂 | Agatha Christie | 8. 文学 |
+| TOP198 | 2007 | 激荡三十年 | - | 吴晓波 | - | 8. 文学 |
+| TOP199 | 2016 | 当呼吸化为空气 | When Breath Becomes Air | [美] 保罗·卡拉尼什 | Paul Kalanithi | 8. 文学 |
+| TOP200 | 1995 | 情书 | Love Letter | [日] 岩井俊二 | Shunji Iwai | 8. 文学 |
+| TOP201 | 1934 | 雷雨 | - | 曹禺 | - | 8. 文学 |
+| TOP202 | 1937 | 骆驼祥子 | - | 老舍 | - | 8. 文学 |
+| TOP203 | 2018 | 跨越边界的社区 | - | 项飙 | - | 8. 文学 |
+| TOP204 | 前380 | 理想国 | Πολιτεία | [古希腊] 柏拉图 | - | 8. 文学 |
+| TOP205 | 2013 | 最好的我们 | 流水混账 | 八月长安 | - | 8. 文学 |
+| TOP206 | 1974 | 雨季不再来 | - | 三毛 | - | 8. 文学 |
+| TOP207 | 1961 | 倚天屠龙记 | - | 金庸 | - | 8. 文学 |
+| TOP208 | 1589 | 水浒传 | - | [明] 施耐庵 | - | 9. 历史与地理 |
+| TOP209 | 1972 | 万物有灵且美 | All Things Bright and Beautiful | [英] 吉米·哈利 | James Herriot | 8. 文学 |
+| TOP210 | 1976 | 海风中失落的血色馈赠 | The Lost Salt Gift of Blood | [加拿大] 阿利斯泰尔·麦克劳德 | Alistair MacLeod | 8. 文学 |
+| TOP211 | 800 | 一千零一夜 | The Arabian Nights | 纳训 | - | 8. 文学 |
+| TOP212 | 2022 | 翦商 | - | 李硕 | - | 8. 文学 |
+| TOP213 | 1915 | 变形记 | Die Verwandlung | [奥地利] 弗朗茨·卡夫卡 | Franz Kafka | 8. 文学 |
+| TOP214 | 2021 | 从零开始的女性主义 | Feminism from Zero | [日] 上野千鹤子 | Chizuko Ueno | 8. 文学 |
+| TOP215 | 2005 | 奥斯维辛 | Auschwitz: A New History | [英] 劳伦斯·里斯 | Laurence Rees | 9. 历史与地理 |
+| TOP216 | 1927 | 荒原狼 | Der Steppenwolf | [德] 赫尔曼·黑塞 | Hermann Hesse | 8. 文学 |
+| TOP217 | 前512 | 孙子兵法 | - | 孙武 | - | 8. 文学 |
+| TOP218 | 1994 | 孩子你慢慢来 | - | 龙应台 | - | 8. 文学 |
+| TOP219 | 1915 | 罗生门 | 羅生門 | [日] 芥川龙之介 | Ryūnosuke Akutagawa | 8. 文学 |
+| TOP220 | 2012 | 现代艺术150年 | What Are You Looking At? | [英] 威尔·贡培兹 | Will Gompertz | 7. 艺术与休闲 |
+| TOP221 | 2010 | 送你一颗子弹 | - | 刘瑜 | - | 8. 文学 |
+| TOP222 | 前300 | 庄子 | - | 孙通海 | - | 8. 文学 |
+| TOP223 | 1944 | 金锁记 | - | 张爱玲 | - | 8. 文学 |
+| TOP224 | 1959 | 不存在的骑士 | Il Cavaliere Inesistente | [意] 伊塔洛·卡尔维诺 | Italo Calvino | 8. 文学 |
+| TOP225 | 前385 | 会饮篇 | Συμπόσιον | [古希腊] 柏拉图 | - | 8. 文学 |
+| TOP226 | 2005 | 九州·缥缈录 | - | 江南 | - | 8. 文学 |
+| TOP227 | 2017 | 黑箱：日本之耻 | Black Box | [日] 伊藤诗织 | Edward Phillips Oppenheim | 8. 文学 |
+| TOP228 | 1808 | 浮生六记 | - | [清] 沈复 | - | 8. 文学 |
+| TOP229 | 1869 | 白痴 | Идиот | [俄] 陀思妥耶夫斯基 | Fyodor Dostoyevsky | 8. 文学 |
+| TOP230 | 前479 | 论语 | - | 刘胜利 | - | 8. 文学 |
+| TOP231 | 2002 | 你一生的故事 | Stories of Your Life and Others | [美] 特德·姜 | Ted Chiang | 8. 文学 |
+| TOP232 | 1934 | 渴望生活 | Lust for Life | [美] 欧文·斯通 | Irving Stone | 8. 文学 |
+| TOP233 | 2009 | 你好，旧时光 | 玛丽苏病例报告 | 八月长安 | - | 8. 文学 |
+| TOP234 | 2013 | 二手时间 | Secondhand Time | [白俄] S. A. 阿列克谢耶维奇 | Svetlana Alexievich | 8. 文学 |
+| TOP235 | 1927 | 坟 | - | 鲁迅 | - | 8. 文学 |
+| TOP236 | 1942 | 象棋的故事 | Schachnovelle | [奥] 斯蒂芬·茨威格 | Stefan Zweig | 8. 文学 |
+| TOP237 | 1979 | 银河系漫游指南 | The Hitchhiker's Guide to the Galaxy | [英] 道格拉斯·亚当斯 | Douglas Adams | 8. 文学 |
+| TOP238 | 2019 | 显微镜下的大明 | - | 马伯庸 | - | 8. 文学 |
+| TOP239 | 1952 | 分成两半的子爵 | Il visconte dimezzato | [意] 伊塔洛·卡尔维诺 | Italo Calvino | 8. 文学 |
+| TOP240 | 1984 | 野火集 | - | 龙应台 | - | 8. 文学 |
+| TOP241 | 1937 | 红星照耀中国 | Red Star Over China | [美] 埃德加·斯诺 | Edgar Snow | 8. 文学 |
+| TOP242 | 1603 | 哈姆莱特 | Hamlet | [英] 莎士比亚 | William Shakespeare | 8. 文学 |
+| TOP243 | 2011 | 火星救援 | The Martian | [美] 安迪·威尔 | Andy Weir | 7. 艺术与休闲 |
+| TOP244 | 1975 | 规训与惩罚 | Surveiller et punir | [法] 米歇尔·福柯 | Philippe Artières | 8. 文学 |
+| TOP245 | 2023 | 她对此感到厌烦 | - | 妚鹤 | - | 8. 文学 |
+| TOP246 | 2017 | 时间的秩序 | The Order of Time | [意] 卡洛·罗韦利 | Carlo Rovelli | 8. 文学 |
+| TOP247 | 2019 | 成为波伏瓦 | Becoming Beauvoir | [英] 凯特·柯克帕特里克 | Kate Kirkpatrick | 8. 文学 |
+| TOP248 | 2017 | 打开一颗心 | Fragile Lives | [英] 斯蒂芬·韦斯塔比 | Stephen Westaby | 8. 文学 |
+| TOP249 | 2012 | 解忧杂货店 | The Miracles of the Namiya General Store | [日] 东野圭吾 | Keigo Higashino | 8. 文学 |

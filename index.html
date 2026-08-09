@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><script>window.onerror = function(msg, url, line, col, error) { fetch("http://127.0.0.1:8888/?error=" + encodeURIComponent(msg + " " + line)); };</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>书殿堂 - 典藏级世界名著书单</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --surface-hover: #fafbfc;
+  --border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent: #6366f1;
+  --accent-light: #e0e7ff;
+  --accent-gradient: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+  --radius: 16px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+  --shadow: 0 10px 25px -5px rgba(0,0,0,0.05), 0 8px 10px -6px rgba(0,0,0,0.01);
+  --shadow-hover: 0 25px 40px -10px rgba(99, 102, 241, 0.15), 0 10px 15px -5px rgba(0,0,0,0.05);
+  --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 顶部导航 (Glassmorphism) */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  padding: 0 2rem;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.navbar-brand span {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 搜索框 (Modern) */
+.search-box {
+  position: relative;
+  width: 320px;
+}
+
+.search-input {
+  width: 100%;
+  height: 48px;
+  padding: 0 3.25rem 0 3.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  outline: none;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+  transition: var(--transition);
+}
+
+.search-input:focus {
+  border-color: var(--accent);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+}
+
+.search-icon {
+  position: absolute;
+  left: 1.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.1rem;
+  height: 1.1rem;
+  color: var(--text-muted);
+}
+
+.search-close {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: #f1f5f9;
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+.search-close:hover { background: #e2e8f0; color: var(--text-primary); }
+.search-input:not(:placeholder-shown) + .search-close { display: flex; }
+
+/* 搜索结果下拉面板 */
+.search-results {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  width: 460px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  display: none;
+  z-index: 200;
+  overflow: hidden;
+  animation: slideDown 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+.search-results.open { display: block; }
+
+.search-result-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: #f8fafc;
+}
+
+.search-result-list {
+  max-height: 480px;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+.search-result-list::-webkit-scrollbar { width: 6px; }
+.search-result-list::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: var(--transition);
+}
+.search-item:hover { background: var(--surface-hover); }
+
+.search-item img {
+  width: 48px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: var(--shadow-sm);
+}
+
+.search-item-info { flex: 1; min-width: 0; }
+.search-item-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.25rem;
+}
+.search-item-meta { font-size: 0.8rem; color: var(--text-secondary); }
+.search-highlight { color: #ec4899; font-weight: bold; }
+
+/* 布局 */
+.layout {
+  display: flex;
+  max-width: 1700px;
+  margin: 0 auto;
+  min-height: calc(100vh - 72px);
+}
+
+/* 侧边栏 */
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  padding: 2rem 1rem 2rem 2rem;
+  position: sticky;
+  top: 72px;
+  height: calc(100vh - 72px);
+  overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar { display: none; }
+
+.sidebar-section { margin-bottom: 2rem; }
+.sidebar-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  padding: 0 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: var(--transition);
+}
+.sidebar-link:hover {
+  background: var(--surface);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+  transform: translateX(4px);
+}
+.sidebar-link.active {
+  background: var(--accent-gradient);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+/* 主内容区 */
+.main {
+  flex: 1;
+  min-width: 0;
+  padding: 2rem 3rem;
+}
+
+/* Hero 区域 */
+.hero {
+  margin-bottom: 2.5rem;
+  padding: 3rem;
+  background: var(--surface);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.1), transparent 50%);
+  pointer-events: none;
+}
+.hero-content { position: relative; z-index: 1; max-width: 600px; }
+.hero-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+/* 书籍网格 */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.book-card {
+  background: var(--surface);
+  border-radius: 20px;
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.book-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: var(--accent-gradient);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.book-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--shadow-hover);
+}
+.book-card:hover::before { opacity: 1; }
+
+.book-cover {
+  width: 100%;
+  padding-top: 150%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm), inset 4px 0 10px rgba(0,0,0,0.1);
+  position: relative;
+  margin-bottom: 1.25rem;
+  background: #f1f5f9;
+}
+
+.book-cover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 5%, rgba(0,0,0,0.05) 95%, rgba(0,0,0,0.2) 100%);
+  pointer-events: none;
+}
+
+.book-cover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.download-btn {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.2s ease;
+  z-index: 10;
+  cursor: pointer;
+}
+.book-cover:hover .download-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+.download-btn:hover {
+  background: var(--accent);
+  color: #fff;
+  transform: scale(1.1) !important;
+}
+
+.book-card:hover .book-cover img { transform: scale(1.05); }
+
+.book-info { flex: 1; display: flex; flex-direction: column; }
+.book-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin-bottom: 0.15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.book-title-en {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.book-author {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.book-author-en {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+  margin-bottom: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.book-meta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.tag {
+  position: relative;
+  z-index: 10;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  letter-spacing: 0.02em;
+  transition: all 0.15s ease;
+}
+
+.tag:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.95);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.tag.year { background: #f1f5f9; color: #475569; }
+
+/* 分类标签颜色系统 */
+.tag.t-1 { background: #fdf4ff; color: #c026d3; } /* 哲学心理 */
+.tag.t-2 { background: #fffbeb; color: #d97706; } /* 宗教 */
+.tag.t-3 { background: #eff6ff; color: #2563eb; } /* 社会科学 */
+.tag.t-4 { background: #f0fdf4; color: #16a34a; } /* 语言 */
+.tag.t-5 { background: #ecfeff; color: #0891b2; } /* 自然科学 */
+.tag.t-6 { background: #f8fafc; color: #475569; } /* 技术 */
+.tag.t-7 { background: #fff1f2; color: #e11d48; } /* 艺术休闲 */
+.tag.t-8 { background: #f0fdfa; color: #0d9488; } /* 文学 */
+.tag.t-9 { background: #fef2f2; color: #dc2626; } /* 历史地理 */
+
+.badge-nobel {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: linear-gradient(135deg, #fbbf24, #d97706);
+  color: white;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(217, 119, 6, 0.3);
+  z-index: 10;
+  text-transform: uppercase;
+}
+
+.download-btn-rect {
+  position: relative;
+  z-index: 10;
+  margin-left: auto;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  font-size: 0.52rem;
+  font-weight: 600;
+  padding: 1.5px 6px;
+  border-radius: 99px;
+  cursor: pointer;
+  line-height: 1.2;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+
+.download-btn-rect::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 60%;
+  height: 300%;
+  background: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.95) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(25deg);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.download-btn-rect:hover {
+  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+  color: #0f172a;
+  border-color: #94a3b8;
+  transform: translateY(-1px) scale(1.04);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.9), 0 2px 8px rgba(99, 102, 241, 0.2);
+}
+
+.download-btn-rect:hover::before {
+  opacity: 1;
+  animation: shineSweep 0.65s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+
+.download-btn-rect:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 1);
+}
+
+@keyframes shineSweep {
+  0% {
+    left: -100%;
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    left: 160%;
+    opacity: 0;
+  }
+}
+
+/* Markdown 面板 */
+.md-content {
+  background: var(--surface);
+  border-radius: 24px;
+  padding: 4rem;
+  box-shadow: var(--shadow);
+  display: none;
+  animation: fadeIn 0.4s ease;
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.md-content.active { display: block; }
+.md-content h1 { font-family: 'Noto Serif SC', serif; font-size: 2.5rem; margin-bottom: 2rem; color: var(--text-primary); }
+.md-content h2 { font-family: 'Noto Serif SC', serif; font-size: 1.75rem; margin: 3rem 0 1.5rem; color: var(--text-primary); border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+.md-content table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-size: 0.95rem; }
+.md-content th { background: #f8fafc; padding: 1rem; text-align: left; font-weight: 600; color: var(--text-primary); border-bottom: 2px solid #cbd5e1; }
+.md-content td { padding: 1rem; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+.md-content tr:hover td { background: var(--surface-hover); }
+
+@media (max-width: 1024px) {
+  .layout { flex-direction: column; }
+  .sidebar { width: 100%; position: static; height: auto; padding: 1rem; border-bottom: 1px solid var(--border); }
+  .main { padding: 1.5rem; }
+  .hero { padding: 2rem; }
+  .book-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1.25rem; }
+  .md-content { padding: 2rem; }
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="#" class="navbar-brand" onclick="showBooks(); return false;">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#gradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6366f1" /><stop offset="100%" stop-color="#ec4899" /></linearGradient></defs><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+    <span>书殿堂</span>
+  </a>
+  <div class="search-box" id="searchBox">
+    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="text" id="searchInput" class="search-input" placeholder="探索不朽名著..." autocomplete="off" />
+    <button type="button" class="search-close" aria-label="清空"><svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    <div class="search-results" id="searchResults">
+      <div class="search-result-header"><span>探索结果</span><span id="searchCount"></span></div>
+      <div class="search-result-list" id="searchResultList"></div>
+    </div>
+  </div>
+
+</nav>
+
+<div id="downloadModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:10000; align-items:center; justify-content:center; backdrop-filter:blur(4px);">
+  <div style="background:#fff; width:90%; max-width:600px; border-radius:12px; padding:24px; box-shadow:0 10px 30px rgba(0,0,0,0.2); max-height:80vh; display:flex; flex-direction:column;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+      <h3 style="margin:0; font-family:'Noto Serif SC'; color:var(--text-primary);">在宝库中检索: <span id="searchKeyword" style="color:var(--accent);"></span></h3>
+      <button onclick="document.getElementById('downloadModal').style.display='none'" style="background:none; border:none; font-size:28px; cursor:pointer; color:var(--text-muted); line-height:1;">&times;</button>
+    </div>
+    <div id="modalResults" style="overflow-y:auto; flex:1; padding-right:8px;">
+      <!-- Results injected here -->
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="main">
+    <div id="bookView">
+      <div class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">世界文学与思想宝库</h1>
+          <p class="hero-subtitle">精心收录 500+ 部荣获诺贝尔文学奖、布克奖、茅盾文学奖等顶级殊荣的传世经典。</p>
+        </div>
+      </div>
+      <div class="book-grid" id="bookGrid"></div>
+    </div>
+    <div class="md-content" id="mdContent"></div>
+  </main>
+</div>
+
+<script>
+const sidebarConfig = [
+  {
+    title: '国际桂冠',
+    items: [
+      { name: '诺贝尔文学奖', file: 'nobel_prize.md', icon: '🏆' },
+      { name: '布克奖', file: 'booker_prize.md', icon: '🇬🇧' },
+      { name: '国际布克奖', file: 'international_booker.md', icon: '🌍' },
+      { name: '普利策小说奖', file: 'pulitzer_fiction.md', icon: '🇺🇸' },
+      { name: '美国国家图书奖', file: 'national_book_award.md', icon: '🦅' },
+      { name: '龚古尔文学奖', file: 'prix_goncourt.md', icon: '🇫🇷' },
+      { name: '卡夫卡奖', file: 'kafka_prize.md', icon: '🇨🇿' },
+      { name: '雨果星云奖', file: 'hugo_nebula.md', icon: '🚀' }
+    ]
+  },
+  {
+    title: '华语典藏',
+    items: [
+      { name: '茅盾文学奖', file: 'maodun_prize.md', icon: '📜' },
+      { name: '鲁迅文学奖', file: 'luxun_prize.md', icon: '🖋️' },
+      { name: '红楼梦奖', file: 'hongloumeng.md', icon: '🏮' },
+      { name: '中国好书', file: 'china_good_book.md', icon: '🇨🇳' },
+      { name: '豆瓣 Top250', file: 'douban_top250.md', icon: '⭐' }
+    ]
+  },
+  {
+    title: '权威书单',
+    items: [
+      { name: 'Goodreads Top250', file: 'goodreads_top250.md', icon: '📊' },
+      { name: '纽约时报书评', file: 'nyt_book_review.md', icon: '📰' },
+      { name: '卫报推荐', file: 'guardian_books.md', icon: '🗞️' },
+      { name: '新京报书评', file: 'xjbook_review.md', icon: '🗞️' },
+      { name: '亚洲周刊十大小说', file: 'yazhou_weekly.md', icon: '🌏' }
+    ]
+  }
+];
+
+let treasureBooks = null;
+window.searchTreasureChest = async function(keyword) {
+  const modal = document.getElementById('downloadModal');
+  const resultsDiv = document.getElementById('modalResults');
+  document.getElementById('searchKeyword').innerText = keyword;
+  modal.style.display = 'flex';
+  resultsDiv.innerHTML = '<div style="text-align:center; padding:40px; color:var(--text-muted);">正在跨源检索电子书宝库 (24,000+ 本)...</div>';
+
+  try {
+    if (!treasureBooks) {
+      const resp = await fetch('https://jbiaojerry.github.io/ebook-treasure-chest/all-books.json');
+      treasureBooks = await resp.json();
+    }
+    
+    const k = keyword.toLowerCase().trim();
+    const keywords = k.split(/\s+/);
+    
+    const results = treasureBooks.filter(b => {
+      const title = (b.title || '').toLowerCase();
+      const author = (b.author || '').toLowerCase();
+      return keywords.every(kw => title.includes(kw) || author.includes(kw));
+    }).slice(0, 20);
+    
+    if (results.length === 0) {
+      resultsDiv.innerHTML = '<div style="text-align:center; padding:40px; color:var(--text-muted);">哎呀，宝库中未找到相关书籍。请尝试搜索其他书籍。</div>';
+      return;
+    }
+    
+    resultsDiv.innerHTML = '<div style="display:flex; flex-direction:column; gap:12px; margin-top:8px;">' + results.map(b => `
+      <div style="border:1px solid #e2e8f0; border-radius:8px; padding:16px; transition:all 0.2s; background:#f8fafc;">
+        <div style="font-weight:700; font-size:1.1rem; color:var(--text-primary); margin-bottom:8px;">${b.title}</div>
+        <div style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:12px;">👤 ${b.author || '未知'} ｜ 📁 ${b.category || '未分类'} ｜ 🔖 ${b.formats ? b.formats.join(', ') : ''}</div>
+        <a href="${b.link}" target="_blank" style="display:inline-block; padding:8px 24px; background:var(--accent); color:#fff; text-decoration:none; border-radius:99px; font-weight:600; font-size:0.9rem; transition:transform 0.2s; box-shadow:0 2px 4px rgba(99,102,241,0.3);">获取资源 (提取码 8866)</a>
+      </div>
+    `).join('') + '</div>';
+    
+  } catch (e) {
+    resultsDiv.innerHTML = `<div style="text-align:center; padding:40px; color:#ef4444;">检索失败: ${e.message}</div>`;
+  }
+};
+
+function renderSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  let html = '<div class="sidebar-section">';
+  html += '<div class="sidebar-title">浏览</div>';
+  html += '<a href="#" class="sidebar-link active" onclick="showBooks(); return false;"><span>📚</span><span>全景书库</span></a>';
+  html += '</div>';
+  
+  for (const group of sidebarConfig) {
+    html += `<div class="sidebar-section">`;
+    if (group.title) html += `<div class="sidebar-title">${group.title}</div>`;
+    for (const item of group.items) {
+      html += `<a href="#" class="sidebar-link" onclick="loadMd('${item.file}', this); return false;"><span>${item.icon || '📖'}</span><span>${item.name}</span></a>`;
+    }
+    html += `</div>`;
+  }
+  sidebar.innerHTML = html;
+}
+
+function showBooks() {
+  document.getElementById('bookView').style.display = 'block';
+  document.getElementById('mdContent').classList.remove('active');
+  document.querySelectorAll('.sidebar-link').forEach(a => a.classList.remove('active'));
+  if (document.querySelector('.sidebar-link')) {
+    document.querySelector('.sidebar-link').classList.add('active');
+  }
+
+  const heroContent = document.querySelector('.hero-content');
+  if (heroContent) {
+    heroContent.innerHTML = `
+      <h1 class="hero-title">世界文学与思想宝库</h1>
+      <p class="hero-subtitle">精心收录 500+ 部荣获诺贝尔文学奖、布克奖、茅盾文学奖等顶级殊荣的传世经典。</p>
+    `;
+  }
+
+  const grid = document.getElementById('bookGrid');
+  if (grid) grid.innerHTML = allBooks.map(renderBookCard).join('');
+}
+
+window.showCategoryPosterWall = function(categoryName) {
+  document.getElementById('bookView').style.display = 'block';
+  document.getElementById('mdContent').classList.remove('active');
+  document.querySelectorAll('.sidebar-link').forEach(a => a.classList.remove('active'));
+
+  const filtered = allBooks.filter(b => {
+    const t = b.type || '';
+    return t.includes(categoryName);
+  });
+
+  const heroContent = document.querySelector('.hero-content');
+  if (heroContent) {
+    heroContent.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+        <div>
+          <h1 class="hero-title" style="margin-bottom:0.5rem;">📂 ${categoryName} · 专属海报墙</h1>
+          <p class="hero-subtitle" style="margin-bottom:0;">精心挑选收录 ${filtered.length} 部属于【${categoryName}】分类的传世名著</p>
+        </div>
+        <button type="button" onclick="showBooks()" style="background:rgba(255,255,255,0.9); border:1px solid var(--border); padding:8px 18px; border-radius:99px; cursor:pointer; font-weight:600; color:var(--text-primary); font-size:0.88rem; transition:all 0.2s ease; box-shadow:var(--shadow-sm);">← 返回全景书库</button>
+      </div>
+    `;
+  }
+
+  const grid = document.getElementById('bookGrid');
+  if (grid) grid.innerHTML = filtered.map(renderBookCard).join('');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+async function loadMd(file, el) {
+  document.getElementById('bookView').style.display = 'none';
+  const content = document.getElementById('mdContent');
+  content.classList.add('active');
+  content.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:1.1rem">翻开卷轴中...</p>';
+  
+  document.querySelectorAll('.sidebar-link').forEach(a => a.classList.remove('active'));
+  if (el) el.classList.add('active');
+
+  try {
+    const resp = await fetch(`all-md/${file}`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const md = await resp.text();
+    content.innerHTML = renderMarkdown(md);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } catch (e) {
+    content.innerHTML = `<p style="color:#ef4444;text-align:center">典籍加载失败: ${e.message}</p>`;
+  }
+}
+
+function renderMarkdown(md) {
+  let html = md;
+  html = html.replace(/^(\|.+\|)\n(\|[-:| ]+\|)\n((?:\|.+\|\n?)*)/gm, (match, header, sep, body) => {
+    const heads = header.split('|').filter(c => c.trim()).map(c => `<th>${c.trim()}</th>`).join('');
+    const rows = body.trim().split('\n').map(row => {
+      const cells = row.split('|').filter(c => c.trim()).map(c => `<td>${c.trim()}</td>`).join('');
+      return `<tr>${cells}</tr>`;
+    }).join('');
+    return `<table><thead><tr>${heads}</tr></thead><tbody>${rows}</tbody></table>`;
+  });
+  
+  html = html.replace(/^######\s+(.+)$/gm, '<h6>$1</h6>');
+  html = html.replace(/^#####\s+(.+)$/gm, '<h5>$1</h5>');
+  html = html.replace(/^####\s+(.+)$/gm, '<h4>$1</h4>');
+  html = html.replace(/^###\s+(.+)$/gm, '<h3>$1</h3>');
+  html = html.replace(/^##\s+(.+)$/gm, '<h2>$1</h2>');
+  html = html.replace(/^#\s+(.+)$/gm, '<h1>$1</h1>');
+  
+  html = html.replace(/\n\n/g, '</p><p>');
+  html = '<p>' + html + '</p>';
+  html = html.replace(/<p>\s*<(h[1-6]|table|ul|ol|hr|blockquote)/g, '<$1');
+  html = html.replace(/<\/(h[1-6]|table|ul|ol|hr|blockquote)>\s*<\/p>/g, '</$1>');
+  return html;
+}
+
+function getTagClass(typeStr) {
+  if (!typeStr) return 't-8';
+  if (typeStr.includes('哲学与心理学')) return 't-1';
+  if (typeStr.includes('宗教')) return 't-2';
+  if (typeStr.includes('社会科学')) return 't-3';
+  if (typeStr.includes('语言')) return 't-4';
+  if (typeStr.includes('自然科学')) return 't-5';
+  if (typeStr.includes('技术')) return 't-6';
+  if (typeStr.includes('艺术')) return 't-7';
+  if (typeStr.includes('历史与地理')) return 't-9';
+  return 't-8'; // 文学 fallback
+}
+
+function renderBookCard(book) {
+  const typeClass = getTagClass(book.type);
+  const nobelBadge = book.is_nobel ? `<div class="badge-nobel">Nobel</div>` : '';
+  const cleanType = book.type ? book.type.replace(/^\d+\.\s*/, '') : '文学';
+  
+  return `
+    <div class="book-card">
+      ${nobelBadge}
+      <div class="book-cover">
+        <img src="${book.cover ? book.cover.replace(/#/g, '%23') : ''}" alt="${book.cn_name}" loading="lazy" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;400&quot; height=&quot;600&quot; style=&quot;background:%23f8fafc&quot;%3E%3Ctext x=&quot;50%25&quot; y=&quot;50%25&quot; font-size=&quot;24&quot; fill=&quot;%23cbd5e1&quot; text-anchor=&quot;middle&quot; font-family=&quot;serif&quot;%3E%E6%9A%82%E6%97%A0%E5%B0%81%E9%9D%A2%3C/text%3E%3C/svg%3E'">
+      </div>
+      <div class="book-info">
+        <div class="book-title" title="${book.cn_name}">${book.cn_name}</div>
+        ${book.en_name && book.en_name !== book.cn_name ? `<div class="book-title-en" title="${book.en_name}">${book.en_name}</div>` : ''}
+        <div class="book-author" title="${book.author}">${book.author}</div>
+        ${book.en_author && book.en_author !== book.author ? `<div class="book-author-en" title="${book.en_author}">${book.en_author}</div>` : ''}
+        <div class="book-meta">
+          <span class="tag year">${book.year || '-'}</span>
+          <span class="tag ${typeClass}" style="cursor:pointer;" title="点击查看【${cleanType}】专属海报墙" data-category="${cleanType}">${cleanType}</span>
+          <button type="button" class="download-btn-rect" title="在电子书宝库中跨源搜索" data-name="${encodeURIComponent(book.cn_name)}">Download</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+let allBooks = [];
+
+async function loadBooks() {
+  if (!window.showToast) {
+    window.showToast = function(msg) {
+      const toast = document.createElement('div');
+      toast.innerText = msg;
+      toast.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.85);color:#fff;padding:12px 24px;border-radius:99px;z-index:9999;font-size:14px;box-shadow:0 4px 12px rgba(0,0,0,0.15);backdrop-filter:blur(4px);pointer-events:none;transition:opacity 0.3s;';
+      document.body.appendChild(toast);
+      setTimeout(() => { toast.style.opacity = '0'; setTimeout(() => toast.remove(), 300); }, 3000);
+    };
+  }
+
+  try {
+    const resp = await fetch('books.json');
+    allBooks = await resp.json();
+    
+    // Sort logic
+    allBooks.sort((a, b) => {
+      if (a.is_nobel && !b.is_nobel) return -1;
+      if (!a.is_nobel && b.is_nobel) return 1;
+      const rankA = a.douban_rank || 9999;
+      const rankB = b.douban_rank || 9999;
+      return rankA - rankB;
+    });
+
+    const grid = document.getElementById('bookGrid');
+    grid.innerHTML = allBooks.map(renderBookCard).join('');
+  } catch (e) {
+    console.error('加载书籍数据失败:', e);
+  }
+}
+
+(function initSearch() {
+  const input = document.getElementById('searchInput');
+  const closeBtn = document.querySelector('#searchBox .search-close');
+  const resultsBox = document.getElementById('searchResults');
+  const resultList = document.getElementById('searchResultList');
+  const countEl = document.getElementById('searchCount');
+  let timer = null;
+
+  function escapeHtml(str) { return String(str).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+  function highlightText(text, query) {
+    if (!query) return escapeHtml(text);
+    const safe = escapeHtml(text);
+    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return safe.replace(regex, '<span class="search-highlight">$1</span>');
+  }
+
+  function runSearch(query) {
+    if (!query || allBooks.length === 0) {
+      resultList.innerHTML = '<div style="padding:2rem;text-align:center;color:#94a3b8">开始输入以探索书海...</div>';
+      countEl.textContent = '';
+      if (query) resultsBox.classList.add('open');
+      else resultsBox.classList.remove('open');
+      return;
+    }
+
+    const q = query.toLowerCase();
+    const matched = allBooks.filter(g => {
+      const cn = (g.cn_name || '').toLowerCase();
+      const author = (g.author || '').toLowerCase();
+      return cn.includes(q) || author.includes(q);
+    }).slice(0, 8);
+
+    if (matched.length === 0) {
+      resultList.innerHTML = '<div style="padding:2rem;text-align:center;color:#94a3b8">未找到匹配的书籍</div>';
+      countEl.textContent = '0 项';
+      resultsBox.classList.add('open');
+      return;
+    }
+
+    countEl.textContent = `找到 ${matched.length} 项`;
+    resultList.innerHTML = '';
+    
+    matched.forEach(g => {
+      const a = document.createElement('a');
+      a.className = 'search-item';
+      a.href = g.detail || '#';
+      a.innerHTML = `
+        <img src="${escapeHtml(g.cover || '')}" alt="" loading="lazy">
+        <div class="search-item-info">
+          <div class="search-item-title">${highlightText(g.cn_name || '', query)}</div>
+          <div class="search-item-meta">${highlightText((g.author || '') + (g.year ? ' · ' + g.year : ''), query)}</div>
+        </div>
+      `;
+      resultList.appendChild(a);
+    });
+    resultsBox.classList.add('open');
+  }
+
+  input.addEventListener('input', () => {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(() => runSearch(input.value.trim()), 100);
+  });
+  
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      input.value = '';
+      resultsBox.classList.remove('open');
+      input.focus();
+    });
+  }
+  
+  input.addEventListener('blur', () => setTimeout(() => { if (!input.matches(':focus')) resultsBox.classList.remove('open'); }, 200));
+  input.addEventListener('focus', () => { if (input.value.trim()) resultsBox.classList.add('open'); });
+})();
+
+// Attach event delegation for download buttons and category tags on #bookGrid container
+document.getElementById('bookGrid').addEventListener('click', (e) => {
+  const downloadBtn = e.target.closest('.download-btn-rect');
+  if (downloadBtn) {
+    e.preventDefault();
+    e.stopPropagation();
+    const title = downloadBtn.getAttribute('data-name');
+    if (title) window.searchTreasureChest(decodeURIComponent(title));
+    return;
+  }
+
+  const categoryTag = e.target.closest('.tag:not(.year)');
+  if (categoryTag) {
+    e.preventDefault();
+    e.stopPropagation();
+    const cat = categoryTag.getAttribute('data-category');
+    if (cat) window.showCategoryPosterWall(cat);
+    return;
+  }
+});
+
+renderSidebar();
+loadBooks();
+</script>
+
+</body>
+</html>

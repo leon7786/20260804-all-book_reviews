@@ -1,0 +1,126 @@
+# nyt_book_review
+
+| 排名/标识 | 出版年份 | 中文书名 | 外文原名 | 中文作者 | 外文作者 | 专属分类 |
+|---|---|---|---|---|---|---|
+| WINNER | 2025 | 坠落天使 | Angel Down | 丹尼尔·克劳斯 | - | 8. 文学 |
+| WINNER | 2025 | 导演 | The Director | 丹尼尔·凯尔曼 | - | 8. 文学 |
+| WINNER | 2025 | 索妮娅与桑尼的孤独 | The Loneliness of Sonia and Sunny | 基兰·德赛 | - | 8. 文学 |
+| WINNER | 2025 | 姐妹们 | The Sisters | 乔纳斯·哈桑·克米里 | - | 8. 文学 |
+| WINNER | 2025 | 石院灵修 | Stone Yard Devotional | 夏洛特·伍德 | - | 8. 文学 |
+| WINNER | 2025 | 海上婚姻 | A Marriage at Sea | 索菲·埃尔姆赫斯特 | - | 8. 文学 |
+| WINNER | 2025 | 以马内利圣母堂 | Mother Emanuel | 凯文·萨克 | - | 9. 历史与地理 |
+| WINNER | 2025 | 母亲向我走来 | Mother Mary Comes to Me | 阿兰达蒂·洛伊 | - | 8. 文学 |
+| WINNER | 2025 | 无处容身 | There Is No Place for Us | 布莱恩·戈德斯通 | - | 8. 文学 |
+| WINNER | 2025 | 狂野之徒 | Wild Thing | 苏·普里多 | - | 9. 历史与地理 |
+| WINNER | 2024 | 全 fours | All Fours | 米兰达·朱利 | - | 8. 文学 |
+| WINNER | 2024 | 好材料 | Good Material | 多莉·奥尔德顿 | - | 8. 文学 |
+| WINNER | 2024 | 詹姆斯 | James | 珀西瓦尔·埃弗里特 | - | 8. 文学 |
+| WINNER | 2024 | 殉道者！ | Martyr! | 卡韦·阿克巴尔 | - | 8. 文学 |
+| WINNER | 2024 | 你梦见了帝国 | You Dreamed of Empires | 阿尔瓦罗·恩里格 | - | 9. 历史与地理 |
+| WINNER | 2024 | 冰冷焚尸炉 | Cold Crematorium | 约瑟夫·德布雷切尼 | - | 8. 文学 |
+| WINNER | 2024 | 所有离去者皆在此 | Everyone Who Is Gone Is Here | 乔纳森·布利策 | - | 3. 社会科学 |
+| WINNER | 2024 | 我听见她呼唤我的名字 | I Heard Her Call My Name | 露西·桑特 | - | 8. 文学 |
+| WINNER | 2024 | 里根 | Reagan | 马克斯·布特 | - | 9. 历史与地理 |
+| WINNER | 2024 | 广阔无垠的海 | The Wide Wide Sea | 汉普顿·赛兹 | - | 9. 历史与地理 |
+| WINNER | 2023 | 蜂蜇 | The Bee Sting | 保罗·默里 | - | 8. 文学 |
+| WINNER | 2023 | 链帮全明星 | Chain Gang All Stars | 纳纳·夸梅·阿杰-布雷尼亚 | - | 6. 技术 |
+| WINNER | 2023 | 最佳头脑 | The Best Minds | 乔纳森·罗森 | - | 9. 历史与地理 |
+| WINNER | 2023 | 底朝天，魔鬼笑了 | Bottoms Up and the Devil Laughs | 凯瑞·豪利 | - | 3. 社会科学 |
+| WINNER | 2023 | 主奴夫妻 | Master Slave Husband Wife | 伊永·伍 | - | 9. 历史与地理 |
+| WINNER | 2023 | 有些人需要被杀 | Some People Need Killing | 帕特里夏·伊万杰利斯塔 | - | 3. 社会科学 |
+| WINNER | 2022 | 糖果屋 | The Candy House | 珍妮弗·伊根 | - | 8. 文学 |
+| WINNER | 2022 | 19号收银台 | Checkout 19 | 克莱尔-路易丝·贝内特 | - | 8. 文学 |
+| WINNER | 2022 | 恶魔铜头 | Demon Copperhead | 芭芭拉·金索沃 | - | 8. 文学 |
+| WINNER | 2022 | 沟壑 | The Furrows | 纳姆瓦利·塞佩尔 | - | 8. 文学 |
+| WINNER | 2022 | 信任 | Trust | 赫南·迪亚斯 | - | 8. 文学 |
+| WINNER | 2022 | 无比的世界 | An Immense World | 埃德· Yong | - | 5. 自然科学与数学 |
+| WINNER | 2022 | 保持真实 | Stay True | 许华 | - | 8. 文学 |
+| WINNER | 2022 | 陌生的自己 | Strangers to Ourselves | 蕾切尔·阿维夫 | - | 1. 哲学与心理学 |
+| WINNER | 2022 | 皮肤之下 | Under the Skin | 琳达·比利亚罗萨 | - | 3. 社会科学 |
+| WINNER | 2022 | 我们不了解自己 | We Don't Know Ourselves | 芬坦·奥图尔 | - | 9. 历史与地理 |
+| WINNER | 2021 | 我们曾经多美 | How Beautiful We Were | 因博洛·姆布 | - | 8. 文学 |
+| WINNER | 2021 | 亲密 | Intimacies | 的村田的 | - | 8. 文学 |
+| WINNER | 2021 | W.E.B.杜波依斯的情歌 | The Love Songs of W.E.B. Du Bois | 奥诺蕾·法农·杰弗斯 | - | 8. 文学 |
+| WINNER | 2021 | 无人在谈论此事 | No One Is Talking About This | 帕特里夏·洛克伍德 | - | 8. 文学 |
+| WINNER | 2021 | 孩子们的圣经 | A Children's Bible | 莉迪亚·米利特 | - | 2. 宗教 |
+| WINNER | 2021 | 应许之地 | A Promised Land | 巴拉克·奥巴马 | Barack Obama | 8. 文学 |
+| WINNER | 2021 | 隐藏谷路 | Hidden Valley Road | 罗伯特·科尔克 | - | 1. 哲学与心理学 |
+| WINNER | 2021 | 分裂美国中的莎士比亚 | Shakespeare in a Divided America | 詹姆斯·夏皮罗 | - | 9. 历史与地理 |
+| WINNER | 2021 | 战争 | Rage | 鲍勃·伍德沃德 | - | 9. 历史与地理 |
+| WINNER | 2021 | 超验王国 | Transcendent Kingdom | 雅阿·吉亚西 | - | 8. 文学 |
+| WINNER | 2020 | 迪肯·金刚 | Deacon King Kong | 詹姆斯·麦克布莱德 | - | 8. 文学 |
+| WINNER | 2020 | 哈姆内特 | Hamnet | 玛吉·奥法雷尔 | - | 8. 文学 |
+| WINNER | 2020 | 消失的另一半 | The Vanishing Half | 布里特·贝内特 | - | 8. 文学 |
+| WINNER | 2020 | 纪念 | Memorial | 布莱恩·华盛顿 | - | 8. 文学 |
+| WINNER | 2020 | 焦土 | Leave the World Behind | 鲁曼·阿拉姆 | - | 8. 文学 |
+| WINNER | 2020 | 应许之地 | A Promised Land | 巴拉克·奥巴马 | Barack Obama | 8. 文学 |
+| WINNER | 2020 | 隐藏谷路 | Hidden Valley Road | 罗伯特·科尔克 | - | 1. 哲学与心理学 |
+| WINNER | 2020 | 种姓 | Caste | 伊莎贝尔·威尔克森 | - | 3. 社会科学 |
+| WINNER | 2020 | 分裂美国中的莎士比亚 | Shakespeare in a Divided America | 詹姆斯·夏皮罗 | - | 9. 历史与地理 |
+| WINNER | 2020 | 战争 | Rage | 鲍勃·伍德沃德 | - | 9. 历史与地理 |
+| WINNER | 2019 | 消失的大地 | Disappearing Earth | 朱莉娅·菲利普斯 | - | 8. 文学 |
+| WINNER | 2019 | 托皮卡学校 | The Topeka School | 本·勒纳 | - | 8. 文学 |
+| WINNER | 2019 | 呼吸 | Exhalation | 特德·姜 | - | 8. 文学 |
+| WINNER | 2019 | 失童档案 | Lost Children Archive | 瓦莱里娅·卢塞利 | - | 8. 文学 |
+| WINNER | 2019 | 奥利芙·基特里奇 | Olive Kitteridge | 伊丽莎白·斯特劳特 | - | 8. 文学 |
+| WINNER | 2018 | 树冠 | The Overstory | 理查德·鲍尔斯 | - | 8. 文学 |
+| WINNER | 2018 | 华盛顿·布莱克 | Washington Black | 埃西·埃杜吉安 | - | 8. 文学 |
+| WINNER | 2018 | 火星房间 | The Mars Room | 蕾切尔·库什纳 | - | 8. 文学 |
+| WINNER | 2018 | 不对称 | Asymmetry | 丽莎·哈利迪 | - | 8. 文学 |
+| WINNER | 2018 | 伟大的信仰者 | The Great Believers | 丽贝卡·马凯 | - | 8. 文学 |
+| WINNER | 2017 | 秋 | Autumn | 阿莉·史密斯 | - | 8. 文学 |
+| WINNER | 2017 | 出走西方 | Exit West | 莫欣·哈米德 | - | 8. 文学 |
+| WINNER | 2017 | 柏青哥 | Pachinko | 李珉贞 | - | 8. 文学 |
+| WINNER | 2017 | 权力 | The Power | 娜奥米·阿尔德曼 | - | 8. 文学 |
+| WINNER | 2017 | 歌唱吧，未被埋葬的歌 | Sing, Unburied, Sing | 杰斯敏·沃德 | - | 8. 文学 |
+| WINNER | 2017 | 美的进化 | The Evolution of Beauty | 理查德·O·普鲁姆 | - | 8. 文学 |
+| WINNER | 2017 | 格兰特 | Grant | 罗恩·切尔诺 | - | 9. 历史与地理 |
+| WINNER | 2016 | 地下铁路 | The Underground Railroad | 科尔森·怀特黑德 | - | 6. 技术 |
+| WINNER | 2016 | 素食者 | The Vegetarian | 韩江 | Han Kang | 8. 文学 |
+| WINNER | 2016 | 行为不端 | The Sellout | 詹姆斯·麦克布莱德 | - | 8. 文学 |
+| WINNER | 2016 | 传家 | Nutshell | 伊恩·麦克尤恩 | - | 9. 历史与地理 |
+| WINNER | 2016 | 九层 | The Storied Life of A.J. Fikry | 加布丽埃勒·泽文 | - | 8. 文学 |
+| WINNER | 2015 | 门 | The Door | 梅达·扎波德 | - | 8. 文学 |
+| WINNER | 2015 | 轮廓 | Outline | 蕾切尔·库什纳 | - | 8. 文学 |
+| WINNER | 2015 | 出卖 | The Sellout | 保罗·比蒂 | - | 8. 文学 |
+| WINNER | 2015 | 迷失的孩子 | The Story of the Lost Child | 莱拉·丰塔内拉 | - | 8. 文学 |
+| WINNER | 2015 | 世界之间 | Between the World and Me | 塔-内希西·科茨 | - | 3. 社会科学 |
+| WINNER | 2015 | 棉花帝国 | Empire of Cotton | 斯文·贝克特 | - | 9. 历史与地理 |
+| WINNER | 2015 | 鹰之为鹰 | H is for Hawk | 海伦·麦克唐纳 | - | 8. 文学 |
+| WINNER | 2015 | 自然的发明 | The Invention of Nature | 安德烈娅·沃尔夫 | - | 5. 自然科学与数学 |
+| WINNER | 2015 | 我们中的一个 | One of Us | 阿萨·奥恩·奥恩松 | - | 9. 历史与地理 |
+| WINNER | 2014 | 如何两全 | How to Be Both | 阿莉·史密斯 | - | 8. 文学 |
+| WINNER | 2014 | 第十层 | Tenth of December | 乔治·桑德斯 | - | 8. 文学 |
+| WINNER | 2014 | 金翅雀 | The Goldfinch | 唐娜·塔特 | - | 8. 文学 |
+| WINNER | 2014 | 我的奋斗 | My Struggle | 卡尔·奥韦·克瑙斯高 | - | 8. 文学 |
+| WINNER | 2014 | 我们所有人 | My Beloved World | 索尼娅·索托马约尔 | - | 9. 历史与地理 |
+| WINNER | 2013 | 金翅雀 | The Goldfinch | 唐娜·塔特 | - | 8. 文学 |
+| WINNER | 2013 | 十二月十日 | Tenth of December | 乔治·桑德斯 | - | 8. 文学 |
+| WINNER | 2013 | 我们收割的男人 | Men We Reaped | 杰斯敏·沃德 | - | 8. 文学 |
+| WINNER | 2013 | 我的天才女友 | L'amica geniale | 埃莱娜·费兰特 | Elena Ferrante | 8. 文学 |
+| WINNER | 2012 | 提堂 | Bring Up the Bodies | 希拉里·曼特尔 | - | 8. 文学 |
+| WINNER | 2012 | 我的天才女友 | L'amica geniale | 埃莱娜·费兰特 | Elena Ferrante | 8. 文学 |
+| WINNER | 2012 | 其他太阳的温暖 | The Warmth of Other Suns | 伊莎贝尔·威尔克森 | - | 9. 历史与地理 |
+| WINNER | 2011 | 11/22/63 | 11/22/63 | 斯蒂芬·金 | - | 8. 文学 |
+| WINNER | 2011 | 虎妈战歌 | Battle Hymn of the Tiger Mother | 蔡美儿 | - | 3. 社会科学 |
+| WINNER | 2010 | 其他太阳的温暖 | The Warmth of Other Suns | 伊莎贝尔·威尔克森 | - | 9. 历史与地理 |
+| WINNER | 2010 | 自由 | Freedom | 乔纳森·弗兰岑 | - | 8. 文学 |
+| WINNER | 2009 | 狼厅 | Wolf Hall | 希拉里·曼特尔 | - | 8. 文学 |
+| WINNER | 2009 | 让大世界旋转 | Let the Great World Spin | 科伦·麦凯恩 | - | 8. 文学 |
+| WINNER | 2008 | 奥斯卡·瓦奥短暂而奇妙的一生 | The Brief Wondrous Life of Oscar Wao | 朱诺特·迪亚斯 | - | 8. 文学 |
+| WINNER | 2008 | 橄榄·基特里奇 | Olive Kitteridge | 伊丽莎白·斯特劳特 | - | 8. 文学 |
+| WINNER | 2008 | 2666 | 2666 | 罗贝托·波拉尼奥 | - | 8. 文学 |
+| WINNER | 2007 | 野侦探 | The Savage Detectives | 罗贝托·波拉尼奥 | - | 8. 文学 |
+| WINNER | 2007 | 在路上 | The Road | 科马克·麦卡锡 | - | 8. 文学 |
+| WINNER | 2006 | 路 | The Road | 科马克·麦卡锡 | - | 8. 文学 |
+| WINNER | 2006 | 包围之塔 | The Looming Tower | 劳伦斯·赖特 | - | 9. 历史与地理 |
+| WINNER | 2006 | 荒诞主义 | Absurdistan | 加里·什特因加特 | - | 8. 文学 |
+| WINNER | 2005 | 永不让我走 | Never Let Me Go | 石黑一雄 | - | 8. 文学 |
+| WINNER | 2005 | 魔法思维之年 | The Year of Magical Thinking | 琼·迪迪翁 | - | 8. 文学 |
+| WINNER | 2005 | 被遗弃的日子 | The Days of Abandonment | 埃莱娜·费兰特 | - | 8. 文学 |
+| WINNER | 2004 | 大师 | The Master | 科尔姆·托宾 | - | 8. 文学 |
+| WINNER | 2004 | 云图 | Cloud Atlas | 大卫·米切尔 | - | 8. 文学 |
+| WINNER | 2004 | 基列家书 | Gilead | 玛丽莲·罗宾逊 | - | 8. 文学 |
+| WINNER | 2004 | 亚历山大·汉密尔顿 | Alexander Hamilton | 罗恩·切尔诺 | - | 9. 历史与地理 |
+| WINNER | 2004 | 编年史 | Chronicles | 鲍勃·迪伦 | - | 9. 历史与地理 |
+| WINNER | 2004 | 华盛顿渡河 | Washington's Crossing | 大卫·哈克特·费舍尔 | - | 9. 历史与地理 |

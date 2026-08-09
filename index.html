@@ -587,6 +587,29 @@ body {
   .book-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1.25rem; }
   .md-content { padding: 2rem; }
 }
+
+.reader-app-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  color: #ffffff;
+  padding: 0.45rem 1rem;
+  border-radius: 99px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  margin-left: auto;
+}
+
+.reader-app-btn:hover {
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.45);
+  background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
+  color: #ffffff !important;
+}
 </style>
 </head>
 <body>
@@ -605,6 +628,11 @@ body {
       <div class="search-result-list" id="searchResultList"></div>
     </div>
   </div>
+
+  <a href="software/电子书阅读器-SumatraPDF-3.6.1.zip" download="SumatraPDF-Reader.zip" class="reader-app-btn" title="下载全能电子书阅读器 (SumatraPDF 3.6.1)">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    <span>阅读器下载</span>
+  </a>
 
 </nav>
 
@@ -719,6 +747,7 @@ function renderSidebar() {
   let html = '<div class="sidebar-section">';
   html += '<div class="sidebar-title">浏览</div>';
   html += '<a href="#" class="sidebar-link active" onclick="showBooks(); return false;"><span>📚</span><span>全景书库</span></a>';
+  html += '<a href="software/电子书阅读器-SumatraPDF-3.6.1.zip" download="SumatraPDF-Reader.zip" class="sidebar-link"><span>💻</span><span>阅读器下载</span></a>';
   html += '</div>';
   
   for (const group of sidebarConfig) {

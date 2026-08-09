@@ -985,10 +985,20 @@ async function loadBooks() {
     const resp = await fetch('books.json');
     allBooks = await resp.json();
     
-    // Sort logic
+    // Sort logic: 1. Nobel books -> 2. Chinese 10 Classics -> 3. Douban rank / Others
+    const classicsOrder = ['史记', '庄子', '道德经', '论语', '孙子兵法', '传习录', '周易', '古文观止', '世说新语', '左传'];
     allBooks.sort((a, b) => {
       if (a.is_nobel && !b.is_nobel) return -1;
       if (!a.is_nobel && b.is_nobel) return 1;
+      
+      const isClassicA = classicsOrder.includes(a.cn_name);
+      const isClassicB = classicsOrder.includes(b.cn_name);
+      if (isClassicA && !isClassicB) return -1;
+      if (!isClassicA && isClassicB) return 1;
+      if (isClassicA && isClassicB) {
+        return classicsOrder.indexOf(a.cn_name) - classicsOrder.indexOf(b.cn_name);
+      }
+
       const rankA = a.douban_rank || 9999;
       const rankB = b.douban_rank || 9999;
       return rankA - rankB;
